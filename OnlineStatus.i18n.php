@@ -797,6 +797,15 @@ $messages['lb'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Mäi Statut op offline änneren esoubal ech mech ausloggen',
 );
 
+/** Lezghian (Лезги)
+ * @author Migraghvi
+ */
+$messages['lez'] = array(
+	'onlinestatus-tab' => 'Статус',
+	'onlinestatus-toggle-offline' => 'Сайтда авач.',
+	'onlinestatus-toggle-online' => 'Сайтда ава',
+);
+
 /** Lithuanian (Lietuvių)
  * @author Hugo.arg
  */
@@ -863,6 +872,27 @@ $messages['mr'] = array(
 	'onlinestatus-toggle-online' => 'उपस्थित',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ * @author Nghtwlkr
+ */
+$messages['nb'] = array(
+	'onlinestatus-desc' => 'Legger til en innstilling for å vise om brukeren er logget på wikien eller ikke',
+	'onlinestatus-js-anon' => 'Feil: du må være logget inn for å bruke denne funksjonen',
+	'onlinestatus-js-changed' => 'Statusen din er endret til «$1»',
+	'onlinestatus-js-error' => 'Kunne ikke endre status, verdien «$1» er ugyldig',
+	'onlinestatus-subtitle-offline' => 'Denne brukeren er ikke logget på',
+	'onlinestatus-subtitle-online' => 'Denne brukeren er logget på',
+	'onlinestatus-tab' => 'Status',
+	'onlinestatus-toggles-desc' => 'Din status:',
+	'onlinestatus-toggles-explain' => 'Dette viser brukere om du er logget på eller ikke ved å se brukersiden din.',
+	'onlinestatus-toggles-show' => 'Vis innloggingsstatus på brukersiden min',
+	'onlinestatus-toggle-offline' => 'Ikke logget på',
+	'onlinestatus-toggle-online' => 'Logget på',
+	'onlinestatus-pref-onlineonlogin' => 'Endre statusen min til pålogget når jeg logger inn',
+	'onlinestatus-pref-offlineonlogout' => 'Endre statusen min til avlogget når jeg logger ut',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
@@ -901,27 +931,6 @@ $messages['nn'] = array(
 	'onlinestatus-toggle-online' => 'Logga på',
 	'onlinestatus-pref-onlineonlogin' => 'Endra statusen min til pålogga når eg loggar inn',
 	'onlinestatus-pref-offlineonlogout' => 'Endra statusen min til ikkje pålogga når eg loggar ut',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- * @author Nghtwlkr
- */
-$messages['nb'] = array(
-	'onlinestatus-desc' => 'Legger til en innstilling for å vise om brukeren er logget på wikien eller ikke',
-	'onlinestatus-js-anon' => 'Feil: du må være logget inn for å bruke denne funksjonen',
-	'onlinestatus-js-changed' => 'Statusen din er endret til «$1»',
-	'onlinestatus-js-error' => 'Kunne ikke endre status, verdien «$1» er ugyldig',
-	'onlinestatus-subtitle-offline' => 'Denne brukeren er ikke logget på',
-	'onlinestatus-subtitle-online' => 'Denne brukeren er logget på',
-	'onlinestatus-tab' => 'Status',
-	'onlinestatus-toggles-desc' => 'Din status:',
-	'onlinestatus-toggles-explain' => 'Dette viser brukere om du er logget på eller ikke ved å se brukersiden din.',
-	'onlinestatus-toggles-show' => 'Vis innloggingsstatus på brukersiden min',
-	'onlinestatus-toggle-offline' => 'Ikke logget på',
-	'onlinestatus-toggle-online' => 'Logget på',
-	'onlinestatus-pref-onlineonlogin' => 'Endre statusen min til pålogget når jeg logger inn',
-	'onlinestatus-pref-offlineonlogout' => 'Endre statusen min til avlogget når jeg logger ut',
 );
 
 /** Occitan (Occitan)
