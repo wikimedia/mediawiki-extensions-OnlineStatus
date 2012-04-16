@@ -344,6 +344,14 @@ $messages['de-formal'] = array(
 	'onlinestatus-toggles-explain' => 'Diese Einstellung ermöglicht Ihnen, anderen Benutzern auf Ihrer Benutzerseite zu zeigen, ob Sie online oder offline sind.',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'onlinestatus-toggle-offline' => 'Çerxteber',
+	'onlinestatus-toggle-online' => 'Çerxmiyan',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
