@@ -923,6 +923,7 @@ $messages['nl'] = array(
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Harald Khan
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'onlinestatus-desc' => 'Legg til eit val som gjer det mogleg å visa om brukaren er pålogga eller ikkje',
@@ -1303,7 +1304,7 @@ $messages['vec'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Canbia el me stato a "offline" co me desconéto',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
