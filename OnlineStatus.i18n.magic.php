@@ -38,6 +38,12 @@ $magicWords['ce'] = array(
 	'anyuseronlinestatus' => array( 0, 'мюлхдекъахохьалмашанчохь', 'любойучастникстатусвсети', 'anyuseronlinestatus' ),
 );
 
+/** German (Deutsch) */
+$magicWords['de'] = array(
+	'onlinestatus_word_raw' => array( 'ROHONLINESTATUS' ),
+	'anyuseronlinestatus' => array( 0, 'onlinestatus_eines_benutzers' ),
+);
+
 /** Japanese (日本語) */
 $magicWords['ja'] = array(
 	'onlinestatus_word' => array( 'オンライン状況' ),
