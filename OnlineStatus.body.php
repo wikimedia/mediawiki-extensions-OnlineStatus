@@ -8,13 +8,13 @@ class OnlineStatus {
 	 *                     User: of User_talk: namespace.
 	 * @return array ( string status, string username 	) or null
 	 */
-	static function GetUserStatus( $title, $checkShowPref = false ){
-		if( is_object( $title ) ){
-			if( !$title instanceof Title ) {
+	static function GetUserStatus( $title, $checkShowPref = false ) {
+		if ( is_object( $title ) ) {
+			if ( !$title instanceof Title ) {
 				return null;
 			}
 
-			if( !in_array( $title->getNamespace(), array( NS_USER, NS_USER_TALK ) ) ) {
+			if ( !in_array( $title->getNamespace(), array( NS_USER, NS_USER_TALK ) ) ) {
 				return null;
 			}
 
@@ -26,36 +26,36 @@ class OnlineStatus {
 
 		$user = User::newFromName( $username );
 
-		if( !$user instanceof User || $user->getId() == 0 ) {
+		if ( !$user instanceof User || $user->getId() == 0 ) {
 			return null;
 		}
 
-		if( $checkShowPref && !$user->getOption( 'showonline' ) ) {
+		if ( $checkShowPref && !$user->getOption( 'showonline' ) ) {
 			return null;
 		}
 
-		return array( $user->getOption( 'online' ), $username);
+		return array( $user->getOption( 'online' ), $username );
 	}
 
 	/**
 	 * Used for AJAX requests
 	 */
-	static function Ajax( $action, $stat = false ){
+	static function Ajax( $action, $stat = false ) {
 		global $wgUser;
 
-		if( $wgUser->isAnon() ) {
+		if ( $wgUser->isAnon() ) {
 			return wfMsgHtml( 'onlinestatus-js-anon' );
 		}
 
-		switch( $action ){
+		switch( $action ) {
 		case 'get':
 			$def = $wgUser->getOption( 'online' );
 			$msg = wfMsgForContentNoTrans( 'onlinestatus-levels' );
 			$lines = explode( "\n", $msg );
 			$radios = array();
 
-			foreach( $lines as $line ){
-				if( substr( $line, 0, 1 ) != '*' ) {
+			foreach ( $lines as $line ) {
+				if ( substr( $line, 0, 1 ) != '*' ) {
 					continue;
 				}
 
@@ -69,13 +69,13 @@ class OnlineStatus {
 
 			return json_encode( $radios );
 		case 'set':
-			if( $stat ){
+			if ( $stat ) {
 				$dbw = wfGetDB( DB_MASTER );
 				$dbw->begin();
 				$actual = $wgUser->getOption( 'online' );
 				$wgUser->setOption( 'online', $stat );
 
-				if( $actual != $stat ){
+				if ( $actual != $stat ) {
 					$wgUser->getUserPage()->invalidateCache();
 					$wgUser->getTalkPage()->invalidateCache();
 				}
@@ -83,7 +83,7 @@ class OnlineStatus {
 				$wgUser->invalidateCache();
 				$dbw->commit();
 
-				return wfMsgHtml( 'onlinestatus-js-changed', wfMsgHtml( 'onlinestatus-toggle-'.$stat ) );
+				return wfMsgHtml( 'onlinestatus-js-changed', wfMsgHtml( 'onlinestatus-toggle-' . $stat ) );
 			} else {
 				return wfMsgHtml( 'onlinestatus-js-error', $stat );
 			}
@@ -93,10 +93,10 @@ class OnlineStatus {
 	/**
 	 * Hook for ParserFirstCallInit
 	 */
-	static function ParserFirstCallInit( $parser ){
+	static function ParserFirstCallInit( $parser ) {
 		global $wgAllowAnyUserOnlineStatusFunction;
 
-		if( $wgAllowAnyUserOnlineStatusFunction )
+		if ( $wgAllowAnyUserOnlineStatusFunction )
 			$parser->setFunctionHook( 'anyuseronlinestatus', array( __CLASS__, 'ParserHookCallback' ) );
 		return true;
 	}
@@ -104,13 +104,14 @@ class OnlineStatus {
 	/**
 	 * Callback for {{#anyuserstatus:}}
 	 */
-	static function ParserHookCallback( &$parser, $user, $raw = false ){
+	static function ParserHookCallback( &$parser, $user, $raw = false ) {
 		$status = self::GetUserStatus( $user );
 
-		if( $status === null )
+		if ( $status === null ) {
 			return array( 'found' => false );
+		}
 
-		if( empty( $raw ) ){
+		if ( empty( $raw ) ) {
 			return wfMsgNoTrans( 'onlinestatus-toggle-' . $status[0] );
 		} else {
 			return $status[0];
@@ -130,20 +131,20 @@ class OnlineStatus {
 	/**
 	 * Hook function for ParserGetVariableValueSwitch
 	 */
-	static function ParserGetVariable( &$parser, &$varCache, &$index, &$ret ){
-		if( $index == 'onlinestatus_word' ){
+	static function ParserGetVariable( &$parser, &$varCache, &$index, &$ret ) {
+		if ( $index == 'onlinestatus_word' ) {
 			$status = self::GetUserStatus( $parser->getTitle() );
 
-			if( $status === null ) {
+			if ( $status === null ) {
 				return true;
 			}
 
 			$ret = wfMsgNoTrans( 'onlinestatus-toggle-' . $status[0] );
 			$varCache['onlinestatus'] = $ret;
-		} elseif( $index == 'onlinestatus_word_raw' ){
+		} elseif ( $index == 'onlinestatus_word_raw' ) {
 			$status = self::GetUserStatus( $parser->getTitle() );
 
-			if( $status === null ) {
+			if ( $status === null ) {
 				return true;
 			}
 
@@ -162,9 +163,11 @@ class OnlineStatus {
 		$lines = explode( "\n", $msg );
 		$radios = array();
 
-		foreach( $lines as $line ){
-			if( substr( $line, 0, 1 ) != '*' )
+		foreach ( $lines as $line ) {
+			if ( substr( $line, 0, 1 ) != '*' ) {
 				continue;
+			}
+
 			$lev = trim( $line, '* ' );
 			$radios[wfMsg( 'onlinestatus-toggle-' . $lev )] = $lev;
 		}
@@ -207,8 +210,8 @@ class OnlineStatus {
 	/**
 	 * Hook for UserLoginComplete
 	 */
-	static function UserLoginComplete( $user ){
-		if( $user->getOption( 'onlineonlogin' ) ){
+	static function UserLoginComplete( $user ) {
+		if ( $user->getOption( 'onlineonlogin' ) ) {
 			$user->setOption( 'online', 'online' );
 			$user->saveSettings();
 		}
@@ -219,18 +222,18 @@ class OnlineStatus {
 	/**
 	 * Hook for UserLoginComplete
 	 */
-	static function UserLogoutComplete( &$newUser, &$injected_html, $oldName = null ){
-		if( $oldName === null ) {
+	static function UserLogoutComplete( &$newUser, &$injected_html, $oldName = null ) {
+		if ( $oldName === null ) {
 			return true;
 		}
 
 		$oldUser = User::newFromName( $oldName );
 
-		if( !$oldUser instanceof User ) {
+		if ( !$oldUser instanceof User ) {
 			return true;
 		}
 
-		if( $oldUser->getOption( 'offlineonlogout' ) ){
+		if ( $oldUser->getOption( 'offlineonlogout' ) ) {
 			$oldUser->setOption( 'online', 'offline' );
 			$oldUser->saveSettings();
 		}
@@ -241,20 +244,20 @@ class OnlineStatus {
 	/**
 	 * Hook function for BeforePageDisplay
 	 */
-	static function BeforePageDisplay( &$out ){
+	static function BeforePageDisplay( &$out ) {
 		global $wgRequest, $wgUser, $wgUseAjax;
 
-		if( $wgUser->isLoggedIn() && $wgUseAjax ){
+		if ( $wgUser->isLoggedIn() && $wgUseAjax ) {
 			$out->addModules( 'ext.onlineStatus' );
 		}
 
-		if( !in_array( $wgRequest->getVal( 'action', 'view' ), array( 'view', 'purge' ) ) ) {
+		if ( !in_array( $wgRequest->getVal( 'action', 'view' ), array( 'view', 'purge' ) ) ) {
 			return true;
 		}
 
 		$status = self::GetUserStatus( $out->getTitle(), true );
 
-		if( $status === null ) {
+		if ( $status === null ) {
 			return true;
 		}
 
@@ -268,17 +271,17 @@ class OnlineStatus {
 	/**
 	 * Hook for PersonalUrls
 	 */
-	static function PersonalUrls( &$urls, &$title ){
+	static function PersonalUrls( &$urls, &$title ) {
 		global $wgUser, $wgUseAjax;
 
 		# Require ajax
-		if( !$wgUser->isLoggedIn() || !$wgUseAjax || $title->isSpecial( 'Preferences' ) )
+		if ( !$wgUser->isLoggedIn() || !$wgUseAjax || $title->isSpecial( 'Preferences' ) )
 			return true;
 
 		$arr = array();
 
-		foreach( $urls as $key => $val ){
-			if( $key == 'logout' ){
+		foreach ( $urls as $key => $val ) {
+			if ( $key == 'logout' ) {
 				$arr['status'] = array(
 					'text' => wfMsgHtml( 'onlinestatus-tab' ),
 					'href' => 'javascript:;',

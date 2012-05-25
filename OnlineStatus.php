@@ -18,7 +18,7 @@ $wgExtensionCredits['other'][] = array(
 	'name'           => 'OnlineStatus',
 	'author'         => 'Alexandre Emsenhuber',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:OnlineStatus',
-	'version'        => '2009-08-22',
+	'version'        => '2012-05-25',
 	'descriptionmsg' => 'onlinestatus-desc',
 );
 
@@ -37,12 +37,14 @@ $wgDefaultUserOptions['showonline'] = 0;
 $wgDefaultUserOptions['onlineonlogin'] = 1;
 $wgDefaultUserOptions['offlineonlogout'] = 1;
 
+$dir = dirname( __FILE__ ) . '/';
+
 // Classes
-$wgAutoloadClasses['OnlineStatus'] = dirname( __FILE__ ) . '/OnlineStatus.body.php';
+$wgAutoloadClasses['OnlineStatus'] = $dir . 'OnlineStatus.body.php';
 
 // Add messages files
-$wgExtensionMessagesFiles['OnlineStatus'] = dirname( __FILE__ ) . '/OnlineStatus.i18n.php';
-$wgExtensionMessagesFiles['OnlineStatusMagic'] = dirname( __FILE__ ) . '/OnlineStatus.i18n.magic.php';
+$wgExtensionMessagesFiles['OnlineStatus'] = $dir . 'OnlineStatus.i18n.php';
+$wgExtensionMessagesFiles['OnlineStatusMagic'] = $dir . 'OnlineStatus.i18n.magic.php';
 
 // Hooks for the Parser
 $wgHooks['ParserFirstCallInit'][] = 'OnlineStatus::ParserFirstCallInit';
