@@ -26,7 +26,7 @@ $magicWords['arz'] = array(
 	'anyuseronlinestatus' => array( 0, 'حالة_الاتصال_لأى_مستخدم', 'حالة_الاتصال_لأي_مستخدم', 'anyuseronlinestatus' ),
 );
 
-/** Breton (Brezhoneg) */
+/** Breton (brezhoneg) */
 $magicWords['br'] = array(
 	'onlinestatus_word' => array( 'STATUDENLINENN' ),
 );
@@ -51,7 +51,14 @@ $magicWords['ja'] = array(
 	'anyuseronlinestatus' => array( 0, '匿名オンライン状況' ),
 );
 
-/** Macedonian (Македонски) */
+/** Korean (한국어) */
+$magicWords['ko'] = array(
+	'onlinestatus_word' => array( '접속상태' ),
+	'onlinestatus_word_raw' => array( '원시접속상태' ),
+	'anyuseronlinestatus' => array( 0, '아무사용자접속상태' ),
+);
+
+/** Macedonian (македонски) */
 $magicWords['mk'] = array(
 	'onlinestatus_word' => array( 'ВКЛУЧЕНОСТ' ),
 	'onlinestatus_word_raw' => array( 'СИРОВАВКЛУЧЕНОСТ' ),
@@ -90,26 +97,32 @@ $magicWords['or'] = array(
 	'onlinestatus_word' => array( 'ଅନଲାଇନଅବସ୍ଥା' ),
 );
 
-/** Polish (Polski) */
+/** Polish (polski) */
 $magicWords['pl'] = array(
 	'onlinestatus_word' => array( 'STATUSONLINE' ),
 );
 
-/** Russian (Русский) */
+/** Russian (русский) */
 $magicWords['ru'] = array(
 	'onlinestatus_word' => array( 'СТАТУСВСЕТИ', 'СТАТУС_В_СЕТИ' ),
 	'onlinestatus_word_raw' => array( 'СТАТУСВСЕТИСЫР', 'СТАТУС_В_СЕТИ_СЫР' ),
 	'anyuseronlinestatus' => array( 0, 'любойучастникстатусвсети', 'любой_участник_статус_в_сети' ),
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+/** Serbian (Latin script) (‪srpski (latinica)‬) */
 $magicWords['sr-el'] = array(
 	'onlinestatus_word' => array( 'MREŽNO_STANJE' ),
 	'onlinestatus_word_raw' => array( 'ČISTO_MREŽNO_STANJE' ),
 	'anyuseronlinestatus' => array( 0, 'mrežno_stanje_svakog_korisnika' ),
 );
 
-/** Swedish (Svenska) */
+/** Swedish (svenska) */
 $magicWords['sv'] = array(
 	'onlinestatus_word_raw' => array( '1', 'RÅONLINESTATUS', 'RAWONLINESTATUS' ),
+);
+
+/** Ukrainian (українська) */
+$magicWords['uk'] = array(
+	'onlinestatus_word' => array( 'У_МЕРЕЖІ' ),
+	'anyuseronlinestatus' => array( 0, 'будь-хто' ),
 );
