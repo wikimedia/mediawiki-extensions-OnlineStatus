@@ -132,7 +132,7 @@ $messages['arz'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'غير حالتى إلى غير موجود عند تسجيل الخروج',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  */
 $messages['az'] = array(
@@ -161,7 +161,7 @@ $messages['be-tarask'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Зьмяняць мой статус на «няма ў {{GRAMMAR:месны|{{SITENAME}}}}» пры выхадзе з сыстэмы',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -190,7 +190,7 @@ $messages['bn'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'প্রস্থানের পর আমার অবস্থা অফলাইনে পরিবর্তন করো',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fohanno
  * @author Fulup
  * @author Y-M D
@@ -212,7 +212,7 @@ $messages['br'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Kemmañ ma statud da ezlinenn pa zigevrean',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -232,7 +232,7 @@ $messages['bs'] = array(
 	'onlinestatus-pref-offlineonlogout' => "Promijeni moj status na ''van mreže'' pri odjavi",
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author SMP
  */
 $messages['ca'] = array(
@@ -252,7 +252,7 @@ $messages['ca'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Canvia el meu estat a «fora de línia» quan finalitzi la sessió',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Danny B.
  * @author Matěj Grabovský
  * @author Mormegil
@@ -294,7 +294,7 @@ $messages['cy'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Newid nodyn fy nghyflwr i all-lein wrth allgofnodi',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Amjaabc
  */
 $messages['da'] = array(
@@ -409,7 +409,7 @@ $messages['eo'] = array(
 	'onlinestatus-toggle-online' => 'Konektita',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Cojoilustrado
  * @author Crazymadlover
  * @author Imre
@@ -432,7 +432,7 @@ $messages['es'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Cambiar mi estado a desconectado cuando inicie sesión',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author Kobazulo
  */
 $messages['eu'] = array(
@@ -450,7 +450,7 @@ $messages['eu'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Saioa ixtean nire konexio-egoera deskonektatua jarri',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Cimon Avaro
  * @author Crt
  * @author Jaakonam
@@ -471,7 +471,7 @@ $messages['fi'] = array(
 	'onlinestatus-toggle-online' => 'Kirjautuneena',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author IAlex
  * @author Zetud
@@ -493,7 +493,7 @@ $messages['fr'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Changer mon statut à hors ligne quand je me déconnecte',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author Cedric31
  * @author ChrisPtDe
  */
@@ -586,7 +586,7 @@ $messages['hi'] = array(
 	'onlinestatus-toggle-online' => 'ओनलाइन',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Ex13
  */
 $messages['hr'] = array(
@@ -621,7 +621,7 @@ $messages['hsb'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Při wotzjewjenju status do offline změnić',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Glanthor Reviol
  */
@@ -642,7 +642,7 @@ $messages['hu'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Kilépéskor változtassa az állapotomat „Kijelentkezett”-re',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -682,7 +682,7 @@ $messages['id'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Ganti status saya menjadi luring (di luar jaringan) jika keluar log',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author Darth Kule
  */
@@ -814,7 +814,7 @@ $messages['lez'] = array(
 	'onlinestatus-toggle-online' => 'Сайтда ава',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Hugo.arg
  */
 $messages['lt'] = array(
@@ -823,7 +823,7 @@ $messages['lt'] = array(
 	'onlinestatus-toggle-online' => 'Prisijungęs',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author GreenZeb
  */
 $messages['lv'] = array(
@@ -831,7 +831,7 @@ $messages['lv'] = array(
 	'onlinestatus-toggle-online' => 'Tiešsaiste',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -921,7 +921,7 @@ $messages['nl'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Mijn status naar offline wijzigen als ik me afmeld',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -942,7 +942,7 @@ $messages['nn'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Endra statusen min til ikkje pålogga når eg loggar ut',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -969,7 +969,7 @@ $messages['os'] = array(
 	'onlinestatus-tab' => 'Статус',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -1022,7 +1022,7 @@ $messages['ps'] = array(
 	'onlinestatus-toggle-online' => 'پر ليکه',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author 555
  * @author Hamilton Abreu
  * @author Lijealso
@@ -1046,7 +1046,7 @@ $messages['pt'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Alterar o meu estado para desligado, quando me desautenticar',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
@@ -1075,7 +1075,7 @@ $messages['qu'] = array(
 	'onlinestatus-toggles-show' => "Llikapi kachkayta ruraqpa p'anqaypi rikuchiy",
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Firilacroco
  * @author KlaudiuMihaila
  * @author Stelistcristi
@@ -1093,7 +1093,7 @@ $messages['ro'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Schimbă-mi starea la offline când mă dezautentific',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1101,7 +1101,7 @@ $messages['roa-tara'] = array(
 	'onlinestatus-toggles-desc' => "'U state tue:",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Ferrer
  * @author Александр Сигачёв
  */
@@ -1122,7 +1122,7 @@ $messages['ru'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Изменить мой статус на «offline» при завершении сеанса',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -1142,7 +1142,7 @@ $messages['sk'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Zmeniť môj stav na offline počas odhlasovania',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -1150,7 +1150,7 @@ $messages['sl'] = array(
 	'onlinestatus-toggles-desc' => 'Vaše stanje:',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -1171,7 +1171,7 @@ $messages['sr-ec'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Промени ми статус на „ван мреже“ када се одјавим',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -1191,7 +1191,7 @@ $messages['sr-el'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Promeni moj status na oflajn kada se izlogujem',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author M.M.S.
  * @author Najami
  */
@@ -1284,7 +1284,7 @@ $messages['tr'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Oturumu kapadığımda durumumu çevrimdışı olarak değiştir',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -1346,7 +1346,7 @@ $messages['vo'] = array(
 	'onlinestatus-toggles-desc' => 'Stad olik:',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Liangent
  * @author Wmr89502270
  */
@@ -1362,7 +1362,7 @@ $messages['zh-hans'] = array(
 	'onlinestatus-pref-offlineonlogout' => '当登出时把我的状态设为离线',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Liangent
  * @author Mark85296341
  * @author Wrightbus
