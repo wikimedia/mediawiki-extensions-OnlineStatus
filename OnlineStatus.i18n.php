@@ -706,12 +706,13 @@ $messages['it'] = array(
 /** Japanese (日本語)
  * @author Fryed-peach
  * @author Hosiryuhosi
+ * @author Shirayuki
  */
 $messages['ja'] = array(
 	'onlinestatus-desc' => '利用者が現在そのウィキ上にいるかどうかを表示できるように、{{int:preferences}}に設定項目を追加する',
 	'onlinestatus-js-anon' => 'エラー: この機能を利用するにはログインしている必要があります',
 	'onlinestatus-js-changed' => 'あなたの状態が「$1」に変更されました',
-	'onlinestatus-js-error' => '状態を変更できません。値「$1」は不正です',
+	'onlinestatus-js-error' => '状態を変更できません。値「$1」は無効です',
 	'onlinestatus-subtitle-offline' => '現在、この利用者はオフラインです',
 	'onlinestatus-subtitle-online' => '現在、この利用者はオンラインです',
 	'onlinestatus-tab' => '状態',
