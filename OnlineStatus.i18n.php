@@ -139,7 +139,7 @@ $messages['az'] = array(
 	'onlinestatus-tab' => 'Status',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Zedlik
@@ -352,7 +352,7 @@ $messages['diq'] = array(
 	'onlinestatus-toggle-online' => 'Çerxmiyan',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -506,7 +506,7 @@ $messages['frp'] = array(
 	'onlinestatus-toggle-online' => 'Present',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -601,7 +601,7 @@ $messages['hr'] = array(
 	'onlinestatus-toggle-online' => 'Spojen',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
