@@ -806,7 +806,7 @@ $messages['lb'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Mäi Statut op offline änneren esoubal ech mech ausloggen',
 );
 
-/** Lezghian (Лезги)
+/** Lezghian (лезги)
  * @author Migraghvi
  */
 $messages['lez'] = array(
@@ -881,8 +881,7 @@ $messages['mr'] = array(
 	'onlinestatus-toggle-online' => 'उपस्थित',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1305,7 +1304,7 @@ $messages['vec'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Canbia el me stato a "offline" co me desconéto',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(

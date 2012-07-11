@@ -31,7 +31,7 @@ $magicWords['br'] = array(
 	'onlinestatus_word' => array( 'STATUDENLINENN' ),
 );
 
-/** Chechen (Нохчийн) */
+/** Chechen (нохчийн) */
 $magicWords['ce'] = array(
 	'onlinestatus_word' => array( '1', 'МАШАНЧОХЬХЬАЛ', 'СТАТУСВСЕТИ', 'ONLINESTATUS' ),
 	'onlinestatus_word_raw' => array( '1', 'МАШАНЧОХЬХЬАЛТlУЬН', 'СТАТУСВСЕТИСЫР', 'RAWONLINESTATUS' ),
