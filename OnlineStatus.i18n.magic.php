@@ -44,6 +44,13 @@ $magicWords['de'] = array(
 	'anyuseronlinestatus' => array( 0, 'onlinestatus_eines_benutzers' ),
 );
 
+/** Zazaki (Zazaki) */
+$magicWords['diq'] = array(
+	'onlinestatus_word' => array( 'ONLINEWEZİYET' ),
+	'onlinestatus_word_raw' => array( 'ONLINEWEZİYETNÊBİYO' ),
+	'anyuseronlinestatus' => array( 0, 'karberqêonlineweziyetnêbiyo' ),
+);
+
 /** Japanese (日本語) */
 $magicWords['ja'] = array(
 	'onlinestatus_word' => array( 'オンライン状況' ),
