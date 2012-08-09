@@ -450,6 +450,14 @@ $messages['eu'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Saioa ixtean nire konexio-egoera deskonektatua jarri',
 );
 
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'onlinestatus-toggle-offline' => 'برون‌خط',
+	'onlinestatus-toggle-online' => 'برخط',
+);
+
 /** Finnish (suomi)
  * @author Cimon Avaro
  * @author Crt
@@ -1120,6 +1128,13 @@ $messages['ru'] = array(
 	'onlinestatus-toggle-online' => 'На сайте',
 	'onlinestatus-pref-onlineonlogin' => 'Изменить мой статус на «online» при входе в систему',
 	'onlinestatus-pref-offlineonlogout' => 'Изменить мой статус на «offline» при завершении сеанса',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'onlinestatus-tab' => 'තත්වය',
 );
 
 /** Slovak (slovenčina)
