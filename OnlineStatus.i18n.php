@@ -745,6 +745,14 @@ $messages['jv'] = array(
 	'onlinestatus-toggle-online' => "Sajroning jaringan (''online'')",
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'onlinestatus-tab' => 'სტატუსი',
+	'onlinestatus-toggles-desc' => 'თქვენი სტატუსი:',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Lovekhmer
  * @author Thearith
