@@ -88,7 +88,7 @@ $messages['ar'] = array(
 	'onlinestatus-js-error' => 'مستحيل أن يتم تغيير الحالة، القيمة "$1" غير صحيحة',
 	'onlinestatus-subtitle-offline' => 'هذا المستخدم غير متصل حاليا',
 	'onlinestatus-subtitle-online' => 'هذا المستخدم متصل حاليا',
-	'onlinestatus-tab' => 'حالة',
+	'onlinestatus-tab' => 'الحالة',
 	'onlinestatus-toggles-desc' => 'حالتك:',
 	'onlinestatus-toggles-explain' => 'هذا يسمح لك بالعرض للمستخدمين الآخرين إذا ما كنت موجودا أم لا بواسطة رؤية صفحة مستخدمك.',
 	'onlinestatus-toggles-show' => 'اعرض حالتي على الإنترنت على صفحة مستخدمي',
@@ -1143,6 +1143,9 @@ $messages['ru'] = array(
  */
 $messages['si'] = array(
 	'onlinestatus-tab' => 'තත්වය',
+	'onlinestatus-toggles-desc' => 'ඔබේ තත්වය:',
+	'onlinestatus-toggle-offline' => 'මාර්ගඅපගතයි',
+	'onlinestatus-toggle-online' => 'මාර්ගගතයි',
 );
 
 /** Slovak (slovenčina)
