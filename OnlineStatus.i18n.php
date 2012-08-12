@@ -751,6 +751,8 @@ $messages['jv'] = array(
 $messages['ka'] = array(
 	'onlinestatus-tab' => 'სტატუსი',
 	'onlinestatus-toggles-desc' => 'თქვენი სტატუსი:',
+	'onlinestatus-toggle-offline' => 'არ არის ქსელში',
+	'onlinestatus-toggle-online' => 'ქსელში',
 );
 
 /** Khmer (ភាសាខ្មែរ)
