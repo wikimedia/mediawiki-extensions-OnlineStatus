@@ -432,6 +432,17 @@ $messages['es'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Cambiar mi estado a desconectado cuando inicie sesión',
 );
 
+/** Estonian (eesti)
+ * @author Avjoska
+ * @author Pikne
+ */
+$messages['et'] = array(
+	'onlinestatus-tab' => 'Olek',
+	'onlinestatus-toggles-desc' => 'Sinu olek:',
+	'onlinestatus-toggle-offline' => 'Ühenduseta',
+	'onlinestatus-toggle-online' => 'Arvuti juures',
+);
+
 /** Basque (euskara)
  * @author Kobazulo
  */
@@ -749,10 +760,20 @@ $messages['jv'] = array(
  * @author David1010
  */
 $messages['ka'] = array(
+	'onlinestatus-desc' => 'ამატებს პარამეტრს, რომლელიც ადგენს მომხმარებლის საიტზე ყოფნას კონკრეტულ მომენტში',
+	'onlinestatus-js-anon' => 'შეცდომა: ამ შესაძლებლობის გამოსაყენებლად თქვენ უნდა შეხვიდეთ სისტემაში',
+	'onlinestatus-js-changed' => 'თქვენი სტატუსი შეიცვალა „$1“-ზე',
+	'onlinestatus-js-error' => 'სტატუსის შეცვლა შეუძლებელია, მნიშვნელობა „$1“ არასწორია',
+	'onlinestatus-subtitle-offline' => 'ეს მომხმარებელი ამჟამად არ არის ქსელში',
+	'onlinestatus-subtitle-online' => 'ეს მომხმარებელი ამჟამად ქსელშია',
 	'onlinestatus-tab' => 'სტატუსი',
 	'onlinestatus-toggles-desc' => 'თქვენი სტატუსი:',
+	'onlinestatus-toggles-explain' => 'სხვა მომხმარებლებს თქვენი გვერდის ნახვისას, საშუალებას აძლევს დაინახონ იმყოფებით თუ არა იმ დროს ქსელში.',
+	'onlinestatus-toggles-show' => 'ქსელში ყოფლის სტატუსის ჩვენება ჩემი მომხმარებლის გვერდზე',
 	'onlinestatus-toggle-offline' => 'არ არის ქსელში',
 	'onlinestatus-toggle-online' => 'ქსელში',
+	'onlinestatus-pref-onlineonlogin' => 'ჩემი სტატუსის ცვლილება „ქსელში“-ზე სისტემაში შესვლისას',
+	'onlinestatus-pref-offlineonlogout' => 'ჩემი სტატუსის ცვლილება „არ არის ქსელში“-ზე სისტემიდან გამოსვლისას',
 );
 
 /** Khmer (ភាសាខ្មែរ)
