@@ -1395,6 +1395,13 @@ $messages['vo'] = array(
 	'onlinestatus-toggles-desc' => 'Stad olik:',
 );
 
+/** Yiddish (ייִדיש)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['yi'] = array(
+	'onlinestatus-tab' => 'סטאַטוס',
+);
+
 /** Simplified Chinese (‪中文（简体）‬)
  * @author Liangent
  * @author Wmr89502270
