@@ -1333,6 +1333,19 @@ $messages['tr'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Oturumu kapadığımda durumumu çevrimdışı olarak değiştir',
 );
 
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'onlinestatus-subtitle-offline' => 'اس صارف کو فی الحال آف لائن ہے',
+	'onlinestatus-subtitle-online' => 'اس صارف کو فی الحال آن لائن ہے',
+	'onlinestatus-tab' => 'حیثیت',
+	'onlinestatus-toggles-desc' => 'آپ کا درجہ:',
+	'onlinestatus-toggles-show' => 'اپنے صارف کے صفحے پر آن لائن حیثیت شو',
+	'onlinestatus-toggle-offline' => 'آف لائن',
+	'onlinestatus-toggle-online' => 'ڈاؤن لوڈ ، اتارنا',
+);
+
 /** vèneto (vèneto)
  * @author Candalua
  */
