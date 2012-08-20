@@ -61,7 +61,7 @@ $magicWords['ja'] = array(
 /** Korean (한국어) */
 $magicWords['ko'] = array(
 	'onlinestatus_word' => array( '접속상태' ),
-	'onlinestatus_word_raw' => array( '원시접속상태' ),
+	'onlinestatus_word_raw' => array( '원래접속상태' ),
 	'anyuseronlinestatus' => array( 0, '아무사용자접속상태' ),
 );
 
