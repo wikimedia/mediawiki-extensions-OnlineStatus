@@ -128,6 +128,13 @@ $magicWords['sv'] = array(
 	'onlinestatus_word_raw' => array( '1', 'RÅONLINESTATUS', 'RAWONLINESTATUS' ),
 );
 
+/** Turkish (Türkçe) */
+$magicWords['tr'] = array(
+	'onlinestatus_word' => array( 'ÇEVRİMİÇİDURUMU' ),
+	'onlinestatus_word_raw' => array( 'HAMÇEVRİMİÇİDURUMU' ),
+	'anyuseronlinestatus' => array( 0, 'herhangibirkullanıcıçevrimiçidurumu' ),
+);
+
 /** Ukrainian (українська) */
 $magicWords['uk'] = array(
 	'onlinestatus_word' => array( 'У_МЕРЕЖІ' ),
