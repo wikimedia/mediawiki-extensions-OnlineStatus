@@ -116,7 +116,7 @@ $magicWords['ru'] = array(
 	'anyuseronlinestatus' => array( 0, 'любойучастникстатусвсети', 'любой_участник_статус_в_сети' ),
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬) */
+/** Serbian (Latin script) (srpski (latinica)‎) */
 $magicWords['sr-el'] = array(
 	'onlinestatus_word' => array( 'MREŽNO_STANJE' ),
 	'onlinestatus_word_raw' => array( 'ČISTO_MREŽNO_STANJE' ),
