@@ -583,8 +583,6 @@ $messages['he'] = array(
 	'onlinestatus-js-anon' => 'שגיאה: עליכם להיכנס לחשבון כדי להשתמש בתכונה זו',
 	'onlinestatus-js-changed' => 'מצבכם שונה ל"$1"',
 	'onlinestatus-js-error' => 'לא ניתן לשנות את המצב, הערך "$1" אינו תקין',
-	'onlinestatus-levels' => '* מקוון
-* מנותק',
 	'onlinestatus-subtitle-offline' => 'משתמש זה אינו מקוון כרגע',
 	'onlinestatus-subtitle-online' => 'משתמש זה מקוון כרגע',
 	'onlinestatus-tab' => 'מצב',
@@ -673,8 +671,6 @@ $messages['ia'] = array(
 	'onlinestatus-js-anon' => 'Error: tu debe aperir un session pro poter usar iste function',
 	'onlinestatus-js-changed' => 'Tu stato ha essite cambiate a "$1"',
 	'onlinestatus-js-error' => 'Impossibile cambiar de stato, le valor "$1" es invalide',
-	'onlinestatus-levels' => '* in linea
-* foras de linea',
 	'onlinestatus-subtitle-offline' => 'Iste usator es actualmente foras de linea',
 	'onlinestatus-subtitle-online' => 'Iste usator es actualmente in linea',
 	'onlinestatus-tab' => 'Stato',
@@ -818,8 +814,6 @@ $messages['ksh'] = array(
 	'onlinestatus-js-anon' => 'Fähler: Do moß ald ennjelogg sin, öm dat maache ze künne',
 	'onlinestatus-js-changed' => 'Dinge Stattus es op „$1“ jeändert.',
 	'onlinestatus-js-error' => 'Et wohr nit müjjelesch, dä Stattus ze änderer, „$1“ es nit jöltesch.',
-	'onlinestatus-levels' => '* onlain
-* offlain',
 	'onlinestatus-subtitle-offline' => 'Dä Metmaacher is em Momang nit doh',
 	'onlinestatus-subtitle-online' => 'Dä Metmaacher is jrad online',
 	'onlinestatus-tab' => 'Stattus',
