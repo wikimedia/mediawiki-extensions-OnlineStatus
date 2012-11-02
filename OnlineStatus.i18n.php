@@ -1420,8 +1420,13 @@ $messages['yi'] = array(
 /** Simplified Chinese (中文（简体）‎)
  * @author Liangent
  * @author Wmr89502270
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
+	'onlinestatus-desc' => '添加一个首选项显示用户当前是否在此wiki上在线',
+	'onlinestatus-js-anon' => '错误：您必须登录才能使用此功能',
+	'onlinestatus-js-changed' => '您的状态已更改为“$1”',
+	'onlinestatus-js-error' => '不能更改状态，值“$1”无效',
 	'onlinestatus-subtitle-offline' => '这个用户当前离线',
 	'onlinestatus-subtitle-online' => '这个用户当前在线',
 	'onlinestatus-tab' => '状态',
