@@ -350,6 +350,8 @@ $messages['de-formal'] = array(
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
+	'onlinestatus-tab' => 'Weziyet',
+	'onlinestatus-toggles-desc' => 'Weziyetê şıma:',
 	'onlinestatus-toggle-offline' => 'Çerxteber',
 	'onlinestatus-toggle-online' => 'Çerxmiyan',
 );
