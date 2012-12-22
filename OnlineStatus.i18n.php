@@ -469,6 +469,8 @@ $messages['eu'] = array(
  * @author Mjbmr
  */
 $messages['fa'] = array(
+	'onlinestatus-tab' => 'وضعیت',
+	'onlinestatus-toggles-desc' => 'وضعیت شما:',
 	'onlinestatus-toggle-offline' => 'برون‌خط',
 	'onlinestatus-toggle-online' => 'برخط',
 );
