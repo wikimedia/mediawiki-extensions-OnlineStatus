@@ -871,8 +871,11 @@ $messages['lt'] = array(
 
 /** Latvian (latviešu)
  * @author GreenZeb
+ * @author Papuass
  */
 $messages['lv'] = array(
+	'onlinestatus-tab' => 'Statuss',
+	'onlinestatus-toggles-desc' => 'Jūsu statuss:',
 	'onlinestatus-toggle-offline' => 'Bezsaiste',
 	'onlinestatus-toggle-online' => 'Tiešsaiste',
 );
