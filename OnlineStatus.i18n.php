@@ -480,6 +480,7 @@ $messages['fa'] = array(
  * @author Crt
  * @author Jaakonam
  * @author Nike
+ * @author VezonThunder
  * @author Vililikku
  */
 $messages['fi'] = array(
@@ -491,9 +492,12 @@ $messages['fi'] = array(
 	'onlinestatus-subtitle-online' => 'Tämä käyttäjä on kirjautunut sisään',
 	'onlinestatus-tab' => 'Tila',
 	'onlinestatus-toggles-desc' => 'Tilasi:',
+	'onlinestatus-toggles-explain' => 'Tämän avulla voit näyttää muille käyttäjille, oletko todella kirjautuneena vai et, käyttäjäsivullasi.',
 	'onlinestatus-toggles-show' => 'Näytä sisäänkirjautumisen tila käyttäjäsivullani',
 	'onlinestatus-toggle-offline' => 'Ei kirjautuneena',
 	'onlinestatus-toggle-online' => 'Kirjautuneena',
+	'onlinestatus-pref-onlineonlogin' => 'Vaihda tilaksi Kirjautuneena, kun kirjaudun sisään',
+	'onlinestatus-pref-offlineonlogout' => 'Vaihda tilaksi Ei kirjautuneena, kun kirjaudun ulos',
 );
 
 /** French (français)
