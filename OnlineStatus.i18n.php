@@ -1178,6 +1178,8 @@ $messages['ru'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'onlinestatus-subtitle-offline' => 'මෙම පරිශීලක දැනට මාර්ගඅපගතයි',
+	'onlinestatus-subtitle-online' => 'මෙම පරිශීලක දැනට මාර්ගගතයි',
 	'onlinestatus-tab' => 'තත්වය',
 	'onlinestatus-toggles-desc' => 'ඔබේ තත්වය:',
 	'onlinestatus-toggle-offline' => 'මාර්ගඅපගතයි',
