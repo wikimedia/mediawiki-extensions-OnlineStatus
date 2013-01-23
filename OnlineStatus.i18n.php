@@ -1471,6 +1471,7 @@ $messages['zh-hans'] = array(
 	'onlinestatus-subtitle-online' => '这个用户当前在线',
 	'onlinestatus-tab' => '状态',
 	'onlinestatus-toggles-desc' => '您的状态：',
+	'onlinestatus-toggles-explain' => '允许查看您用户页的人看到您当前是否在线。',
 	'onlinestatus-toggles-show' => '在我的用户页显示在线状态',
 	'onlinestatus-toggle-offline' => '离线',
 	'onlinestatus-toggle-online' => '在线',
