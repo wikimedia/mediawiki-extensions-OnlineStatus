@@ -62,7 +62,7 @@ $magicWords['ja'] = array(
 $magicWords['ko'] = array(
 	'onlinestatus_word' => array( '접속상태' ),
 	'onlinestatus_word_raw' => array( '원래접속상태' ),
-	'anyuseronlinestatus' => array( 0, '아무사용자접속상태' ),
+	'anyuseronlinestatus' => array( 0, '어떤사용자접속상태' ),
 );
 
 /** Macedonian (македонски) */
