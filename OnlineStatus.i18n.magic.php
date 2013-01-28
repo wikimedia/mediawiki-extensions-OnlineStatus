@@ -86,7 +86,7 @@ $magicWords['mr'] = array(
 	'anyuseronlinestatus' => array( 0, 'कोणीसदस्यऑनलाईनस्थिती', 'anyuseronlinestatus' ),
 );
 
-/** Nedersaksies (Nedersaksies) */
+/** Low Saxon (Netherlands) (Nedersaksies) */
 $magicWords['nds-nl'] = array(
 	'onlinestatus_word' => array( 'ONLINESTAOTUS' ),
 	'onlinestatus_word_raw' => array( 'ROEWEONLINESTAOTUS', 'RUWEONLINESTATUS' ),
