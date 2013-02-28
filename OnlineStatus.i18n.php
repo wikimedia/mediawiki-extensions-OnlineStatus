@@ -31,12 +31,13 @@ $messages['en'] = array(
  * @author Bennylin
  * @author EugeneZelenko
  * @author Purodha
+ * @author Shirayuki
  * @author Siebrand
  * @author The Evil IP address
  * @author Umherirrender
  */
 $messages['qqq'] = array(
-	'onlinestatus-desc' => '{{desc}}',
+	'onlinestatus-desc' => '{{desc|name=Online Status|url=http://www.mediawiki.org/wiki/Extension:OnlineStatus}}',
 	'onlinestatus-levels' => '{{notranslate}}',
 	'onlinestatus-subtitle-offline' => 'Parameters:
 * $1 can be used for GENDER support.',
