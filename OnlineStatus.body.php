@@ -59,6 +59,8 @@ class OnlineStatus {
 					continue;
 				}
 
+				// For grep. Message keys used here:
+				// onlinestatus-toggle-offline, onlinestatus-toggle-online
 				$lev = trim( $line, '* ' );
 				$radios[] = array(
 					$lev,
@@ -83,6 +85,8 @@ class OnlineStatus {
 				$wgUser->invalidateCache();
 				$dbw->commit();
 
+				// For grep. Message keys used here:
+				// onlinestatus-toggle-offline, onlinestatus-toggle-online
 				return wfMsgHtml( 'onlinestatus-js-changed', wfMsgHtml( 'onlinestatus-toggle-' . $stat ) );
 			} else {
 				return wfMsgHtml( 'onlinestatus-js-error', $stat );
@@ -112,6 +116,8 @@ class OnlineStatus {
 		}
 
 		if ( empty( $raw ) ) {
+			// For grep. Message keys used here:
+			// onlinestatus-toggle-offline, onlinestatus-toggle-online
 			return wfMsgNoTrans( 'onlinestatus-toggle-' . $status[0] );
 		} else {
 			return $status[0];
@@ -139,6 +145,8 @@ class OnlineStatus {
 				return true;
 			}
 
+			// For grep. Message keys used here:
+			// onlinestatus-toggle-offline, onlinestatus-toggle-online
 			$ret = wfMsgNoTrans( 'onlinestatus-toggle-' . $status[0] );
 			$varCache['onlinestatus'] = $ret;
 		} elseif ( $index == 'onlinestatus_word_raw' ) {
@@ -168,6 +176,8 @@ class OnlineStatus {
 				continue;
 			}
 
+			// For grep. Message keys used here:
+			// onlinestatus-toggle-offline, onlinestatus-toggle-online
 			$lev = trim( $line, '* ' );
 			$radios[wfMsg( 'onlinestatus-toggle-' . $lev )] = $lev;
 		}
@@ -262,7 +272,7 @@ class OnlineStatus {
 		}
 
 		// For grep. Message keys used here:
-		// onlinestatus-subtitle-offline, onlinestatus-subtitle-onfline
+		// onlinestatus-subtitle-offline, onlinestatus-subtitle-online
 		$out->setSubtitle( wfMsgExt( 'onlinestatus-subtitle-' . $status[0], array( 'parse' ), $status[1] ) );
 
 		return true;
