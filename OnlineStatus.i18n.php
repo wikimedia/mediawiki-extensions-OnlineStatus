@@ -38,6 +38,17 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'onlinestatus-desc' => '{{desc|name=Online Status|url=http://www.mediawiki.org/wiki/Extension:OnlineStatus}}',
+	'onlinestatus-js-changed' => 'Parameters:
+* $1 - any one of the following messages:
+** {{msg-mw|onlinestatus-toggle-offline}}
+** {{msg-mw|onlinestatus-toggle-online}}
+See also:
+* {{msg-mw|onlinestatus-js-error}}',
+	'onlinestatus-js-error' => 'Parameters:
+* $1 - invalid status. Valid statuses are {{msg-mw|Onlinestatus-toggle-offline}} and {{msg-mw|Onlinestatus-toggle-online}}.
+
+See also:
+* {{msg-mw|Onlinestatus-js-changed}}',
 	'onlinestatus-levels' => '{{notranslate}}',
 	'onlinestatus-subtitle-offline' => 'Parameters:
 * $1 can be used for GENDER support.',
@@ -46,6 +57,18 @@ $messages['qqq'] = array(
 	'onlinestatus-tab' => '{{Identical|Status}}',
 	'onlinestatus-toggles-desc' => '{{Identical|Status}}',
 	'onlinestatus-toggles-show' => 'Toggle in [[Special:Preferences|preferences]]. {{Gender}}',
+	'onlinestatus-toggle-offline' => 'Used as radio button label etc.
+
+Also used as <code>$1</code> in {{msg-mw|Onlinestatus-js-changed}}.
+
+See also:
+* {{msg-mw|Onlinestatus-toggle-online}}',
+	'onlinestatus-toggle-online' => 'Used as radio button label etc.
+
+Also used as <code>$1</code> in {{msg-mw|Onlinestatus-js-changed}}.
+
+See also:
+* {{msg-mw|Onlinestatus-toggle-offline}}',
 );
 
 /** Afrikaans (Afrikaans)
