@@ -1202,6 +1202,8 @@ $messages['ro'] = array(
 $messages['roa-tara'] = array(
 	'onlinestatus-tab' => 'State',
 	'onlinestatus-toggles-desc' => "'U state tue:",
+	'onlinestatus-toggle-offline' => 'Fore linèe',
+	'onlinestatus-toggle-online' => 'In linèe',
 );
 
 /** Russian (русский)
