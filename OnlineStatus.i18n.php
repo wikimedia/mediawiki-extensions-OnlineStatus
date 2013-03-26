@@ -38,6 +38,7 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'onlinestatus-desc' => '{{desc|name=Online Status|url=http://www.mediawiki.org/wiki/Extension:OnlineStatus}}',
+	'onlinestatus-js-anon' => 'Used as error message for Ajax requests.',
 	'onlinestatus-js-changed' => 'Parameters:
 * $1 - any one of the following messages:
 ** {{msg-mw|onlinestatus-toggle-offline}}
@@ -56,6 +57,7 @@ See also:
 * $1 can be used for GENDER support.',
 	'onlinestatus-tab' => '{{Identical|Status}}',
 	'onlinestatus-toggles-desc' => '{{Identical|Status}}',
+	'onlinestatus-toggles-explain' => 'Used as help message for the checkbox which has a label {{msg-mw|onlinestatus-toggles-show}}.',
 	'onlinestatus-toggles-show' => 'Toggle in [[Special:Preferences|preferences]]. {{Gender}}',
 	'onlinestatus-toggle-offline' => 'Used as radio button label etc.
 
@@ -69,6 +71,14 @@ Also used as <code>$1</code> in {{msg-mw|Onlinestatus-js-changed}}.
 
 See also:
 * {{msg-mw|Onlinestatus-toggle-offline}}',
+	'onlinestatus-pref-onlineonlogin' => 'Used as checkbox label in [[Special:Preferences]].
+
+See also:
+* {{msg-mw|Onlinestatus-pref-offlineonlogout}}',
+	'onlinestatus-pref-offlineonlogout' => 'Used as checkbox label in [[Special:Preferences]].
+
+See also:
+* {{msg-mw|Onlinestatus-pref-onlineonlogin}}',
 );
 
 /** Afrikaans (Afrikaans)
