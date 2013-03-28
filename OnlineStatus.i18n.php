@@ -1014,6 +1014,13 @@ $messages['nb'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Endre statusen min til avlogget når jeg logger ut',
 );
 
+/** Low German (Plattdüütsch)
+ * @author Joachim Mos
+ */
+$messages['nds'] = array(
+	'onlinestatus-tab' => 'Status',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
