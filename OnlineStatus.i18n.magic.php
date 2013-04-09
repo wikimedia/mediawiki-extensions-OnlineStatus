@@ -99,7 +99,7 @@ $magicWords['nl'] = array(
 	'anyuseronlinestatus' => array( 0, 'allegebruikersonlinestatus' ),
 );
 
-/** Oriya (ଓଡ଼ିଆ) */
+/** Oriya (ଓଡ଼ିଆ) */
 $magicWords['or'] = array(
 	'onlinestatus_word' => array( 'ଅନଲାଇନଅବସ୍ଥା' ),
 );
