@@ -64,7 +64,8 @@ See also:
 Also used as <code>$1</code> in {{msg-mw|Onlinestatus-js-changed}}.
 
 See also:
-* {{msg-mw|Onlinestatus-toggle-online}}',
+* {{msg-mw|Onlinestatus-toggle-online}}
+{{Identical|Offline}}',
 	'onlinestatus-toggle-online' => 'Used as radio button label etc.
 
 Also used as <code>$1</code> in {{msg-mw|Onlinestatus-js-changed}}.
