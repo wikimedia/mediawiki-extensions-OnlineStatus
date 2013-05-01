@@ -1169,13 +1169,14 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
+ * @author Luckas
  */
 $messages['pt-br'] = array(
 	'onlinestatus-desc' => 'Adiciona uma preferência para mostrar se o utilizador está atualmente presente no wiki ou não',
 	'onlinestatus-js-anon' => 'Erro: você tem que estar autenticado para usar esta funcionalidade',
 	'onlinestatus-js-changed' => 'O seu estado foi alterado para "$1"',
 	'onlinestatus-js-error' => 'Impossível alterar estado, o valor "$1" é inválido',
-	'onlinestatus-subtitle-offline' => 'Este utilizador não encontra-se autenticado',
+	'onlinestatus-subtitle-offline' => 'Este usuário está atualmente off-line',
 	'onlinestatus-subtitle-online' => 'Este utilizador encontra-se autenticado',
 	'onlinestatus-tab' => 'Estado',
 	'onlinestatus-toggles-desc' => 'O seu estado:',
