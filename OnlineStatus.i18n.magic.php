@@ -81,9 +81,9 @@ $magicWords['ml'] = array(
 
 /** Marathi (मराठी) */
 $magicWords['mr'] = array(
-	'onlinestatus_word' => array( '1', 'ऑनलाईनस्थिती', 'ONLINESTATUS' ),
-	'onlinestatus_word_raw' => array( '1', 'कच्चीऑनलाईनस्थिती', 'RAWONLINESTATUS' ),
-	'anyuseronlinestatus' => array( 0, 'कोणीसदस्यऑनलाईनस्थिती', 'anyuseronlinestatus' ),
+	'onlinestatus_word' => array( 'ऑनलाईनस्थिती' ),
+	'onlinestatus_word_raw' => array( 'कच्चीऑनलाईनस्थिती' ),
+	'anyuseronlinestatus' => array( 0, 'कोणीसदस्यऑनलाईनस्थिती' ),
 );
 
 /** Low Saxon (Netherlands) (Nedersaksies) */
