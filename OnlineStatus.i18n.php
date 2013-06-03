@@ -995,7 +995,7 @@ $messages['mr'] = array(
 	'onlinestatus-toggle-online' => 'उपस्थित',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1042,7 +1042,7 @@ $messages['nl'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Mijn status naar offline wijzigen als ik me afmeld',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Harald Khan
  * @author Njardarlogar
  */
