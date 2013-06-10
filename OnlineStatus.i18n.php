@@ -1545,15 +1545,21 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
  * @author Liangent
  * @author Mark85296341
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
+	'onlinestatus-desc' => '添加一個選項以顯示用戶目前是否在線',
+	'onlinestatus-js-anon' => '錯誤：您必需登入才可使用此功能',
+	'onlinestatus-js-changed' => '您的狀態已更改為「$1」',
+	'onlinestatus-js-error' => '無法更改狀態，數值「$1」無效',
 	'onlinestatus-subtitle-offline' => '這用戶現正離線',
 	'onlinestatus-subtitle-online' => '這用戶目前在線上',
 	'onlinestatus-tab' => '狀態',
 	'onlinestatus-toggles-desc' => '您的狀態：',
+	'onlinestatus-toggles-explain' => '此將容許他人查看你目前是否在線。',
 	'onlinestatus-toggles-show' => '在我的用戶頁面顯示線上狀態',
 	'onlinestatus-toggle-offline' => '離線',
 	'onlinestatus-toggle-online' => '線上',
