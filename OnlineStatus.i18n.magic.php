@@ -51,6 +51,13 @@ $magicWords['diq'] = array(
 	'anyuseronlinestatus' => array( 0, 'karberqêonlineweziyetnêbiyo' ),
 );
 
+/** French (français) */
+$magicWords['fr'] = array(
+	'onlinestatus_word' => array( 'ETATENLIGNE' ),
+	'onlinestatus_word_raw' => array( 'ETATENLIGNEB' ),
+	'anyuseronlinestatus' => array( 0, 'étatenligneutilisateur' ),
+);
+
 /** Japanese (日本語) */
 $magicWords['ja'] = array(
 	'onlinestatus_word' => array( 'オンライン状況' ),
