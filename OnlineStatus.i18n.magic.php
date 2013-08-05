@@ -96,8 +96,8 @@ $magicWords['mr'] = array(
 /** Low Saxon (Netherlands) (Nedersaksies) */
 $magicWords['nds-nl'] = array(
 	'onlinestatus_word' => array( 'ONLINESTAOTUS' ),
-	'onlinestatus_word_raw' => array( 'ROEWEONLINESTAOTUS', 'RUWEONLINESTATUS' ),
-	'anyuseronlinestatus' => array( 0, 'allegebrukersonlinestaotus', 'allegebruikersonlinestatus' ),
+	'onlinestatus_word_raw' => array( 'ROEWEONLINESTAOTUS' ),
+	'anyuseronlinestatus' => array( 0, 'allegebrukersonlinestaotus' ),
 );
 
 /** Dutch (Nederlands) */
