@@ -52,9 +52,13 @@ See also:
 * {{msg-mw|Onlinestatus-js-changed}}',
 	'onlinestatus-levels' => '{{notranslate}}',
 	'onlinestatus-subtitle-offline' => 'Parameters:
-* $1 can be used for GENDER support.',
+* $1 - (Optional) username, can be used for GENDER support
+See also:
+* {{msg-mw|Onlinestatus-subtitle-online}}',
 	'onlinestatus-subtitle-online' => 'Parameters:
-* $1 can be used for GENDER support.',
+* $1 - (Optional) username, can be used for GENDER support
+See also:
+* {{msg-mw|Onlinestatus-subtitle-offline}}',
 	'onlinestatus-tab' => '{{Identical|Status}}',
 	'onlinestatus-toggles-desc' => '{{Identical|Status}}',
 	'onlinestatus-toggles-explain' => 'Used as help message for the checkbox which has a label {{msg-mw|onlinestatus-toggles-show}}.',
