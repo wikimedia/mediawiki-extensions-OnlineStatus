@@ -903,10 +903,11 @@ $messages['ksh'] = array(
 /** Luxembourgish (Lëtzebuergesch)
  * @author Les Meloures
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'onlinestatus-desc' => 'Setzt eng Astellung derbäi fir ze weisen ob de Benotzer op dëser Wiki zur Zäit online ass',
-	'onlinestatus-js-anon' => 'Feeler: Dir musst ageloggt si fir dës Fonctioun ze benotzen',
+	'onlinestatus-js-anon' => 'Feeler: Dir musst ageloggt si fir dës Funktioun ze benotzen',
 	'onlinestatus-js-changed' => 'Äre Statut gouf op "$1" geännert',
 	'onlinestatus-js-error' => 'Et ass net méiglech de Statut z\'änneren, de Wäert "$1" ass net valabel',
 	'onlinestatus-subtitle-offline' => 'Dëse Benotzer ass zur Zäit offline',
