@@ -918,8 +918,8 @@ $messages['lb'] = array(
 	'onlinestatus-toggles-show' => 'Online-Status op menger Benotzersäit weisen',
 	'onlinestatus-toggle-offline' => 'Offline',
 	'onlinestatus-toggle-online' => 'Online',
-	'onlinestatus-pref-onlineonlogin' => 'Mäi Statut op online änneren esoubal ech mech aloggen',
-	'onlinestatus-pref-offlineonlogout' => 'Mäi Statut op offline änneren esoubal ech mech ausloggen',
+	'onlinestatus-pref-onlineonlogin' => 'Mäi Statut op online ännere soubal ech mech aloggen',
+	'onlinestatus-pref-offlineonlogout' => 'Mäi Statut op offline ännere soubal ech mech ausloggen',
 );
 
 /** Lezghian (лезги)
