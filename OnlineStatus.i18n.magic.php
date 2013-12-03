@@ -21,9 +21,9 @@ $magicWords['ar'] = array(
 
 /** Egyptian Spoken Arabic (مصرى) */
 $magicWords['arz'] = array(
-	'onlinestatus_word' => array( '1', 'حالة_الاتصال', 'ONLINESTATUS' ),
-	'onlinestatus_word_raw' => array( '1', 'حالة_الاتصال_الخام', 'RAWONLINESTATUS' ),
-	'anyuseronlinestatus' => array( 0, 'حالة_الاتصال_لأى_مستخدم', 'حالة_الاتصال_لأي_مستخدم', 'anyuseronlinestatus' ),
+	'onlinestatus_word' => array( 'حالة_الاتصال' ),
+	'onlinestatus_word_raw' => array( 'حالة_الاتصال_الخام' ),
+	'anyuseronlinestatus' => array( 0, 'حالة_الاتصال_لأى_مستخدم', 'حالة_الاتصال_لأي_مستخدم' ),
 );
 
 /** Breton (brezhoneg) */
