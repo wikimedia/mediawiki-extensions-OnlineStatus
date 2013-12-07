@@ -313,7 +313,7 @@ $messages['ca'] = array(
 	'onlinestatus-pref-offlineonlogout' => 'Canvia el meu estat a «fora de línia» quan finalitzi la sessió',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Danny B.
  * @author Matěj Grabovský
  * @author Mormegil
