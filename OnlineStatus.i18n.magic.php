@@ -47,8 +47,8 @@ $magicWords['de'] = array(
 /** Zazaki (Zazaki) */
 $magicWords['diq'] = array(
 	'onlinestatus_word' => array( 'ONLINEWEZİYET' ),
-	'onlinestatus_word_raw' => array( 'ONLINEWEZİYETNÊBİYO' ),
-	'anyuseronlinestatus' => array( 0, 'karberqêonlineweziyetnêbiyo' ),
+	'onlinestatus_word_raw' => array( 'ONLINEWEZİYETNÉBİYO' ),
+	'anyuseronlinestatus' => array( 0, 'karberékonlineweziyetnébiyé' ),
 );
 
 /** French (français) */
