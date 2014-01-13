@@ -525,13 +525,23 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Mjbmr
  */
 $messages['fa'] = array(
+	'onlinestatus-js-anon' => 'خطا: شما برای استفاده از این ویژگی باید وارد شوید',
+	'onlinestatus-js-changed' => 'وضعیت شما به "$1" تغییر کرده‌است',
+	'onlinestatus-js-error' => 'تغییر وضعیت غیرممکن است، ارزش "$1" نامعتبر است',
+	'onlinestatus-subtitle-offline' => 'در حال حاضر این کاربر آفلاین است',
+	'onlinestatus-subtitle-online' => 'درحال حاضر این کاربر آنلاین است',
 	'onlinestatus-tab' => 'وضعیت',
 	'onlinestatus-toggles-desc' => 'وضعیت شما:',
+	'onlinestatus-toggles-explain' => 'این به شما اجازه می‌دهد که با مشاهدهٔ صفحهٔ کاربر، کاربران دیگر را اگر درحقیقت آنلاین باشند یا نباشند، به شما نشان می‌دهد.',
+	'onlinestatus-toggles-show' => 'نمایش وضعیت آنلاین در صفحهٔ کاربر',
 	'onlinestatus-toggle-offline' => 'برون‌خط',
 	'onlinestatus-toggle-online' => 'برخط',
+	'onlinestatus-pref-onlineonlogin' => 'تغییر دادن وضعیت من به آنلاین هنگام ورود به سیستم',
+	'onlinestatus-pref-offlineonlogout' => 'تغییر دادن وضعیت من به آفلاین هنگام خروج از سیستم',
 );
 
 /** Finnish (suomi)
