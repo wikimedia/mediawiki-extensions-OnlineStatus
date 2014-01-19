@@ -890,6 +890,16 @@ $messages['kn'] = array(
 	'onlinestatus-toggles-desc' => 'ನಿಮ್ಮ ಸ್ಥಾನಮಾನ:',
 );
 
+/** Korean (한국어)
+ * @author Priviet
+ */
+$messages['ko'] = array(
+	'onlinestatus-tab' => '상태',
+	'onlinestatus-toggles-desc' => '당신의 상태:',
+	'onlinestatus-toggle-offline' => '오프라인',
+	'onlinestatus-toggle-online' => '온라인',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
