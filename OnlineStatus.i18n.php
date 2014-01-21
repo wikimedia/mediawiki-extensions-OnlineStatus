@@ -891,9 +891,11 @@ $messages['kn'] = array(
 );
 
 /** Korean (한국어)
+ * @author Hym411
  * @author Priviet
  */
 $messages['ko'] = array(
+	'onlinestatus-desc' => '사용자가 위키에 있는지 아닌지 표시하는 환경 설정을 추가',
 	'onlinestatus-js-anon' => '오류: 이 기능을 사용하려면 로그인 상태여야 합니다',
 	'onlinestatus-js-changed' => '당신의 상태가 "$1"로 바뀌었습니다',
 	'onlinestatus-js-error' => '상태를 바꿀 수 없음, "$1" 값이 유효하지 않습니다',
