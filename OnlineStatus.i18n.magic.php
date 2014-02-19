@@ -147,3 +147,9 @@ $magicWords['uk'] = array(
 	'onlinestatus_word' => array( 'У_МЕРЕЖІ' ),
 	'anyuseronlinestatus' => array( 0, 'будь-хто' ),
 );
+
+/** Simplified Chinese (中文（简体）‎) */
+$magicWords['zh-hans'] = array(
+	'onlinestatus_word' => array( '在线状态' ),
+	'anyuseronlinestatus' => array( 0, '任何用户在线状态' ),
+);
