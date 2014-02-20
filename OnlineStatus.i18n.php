@@ -529,6 +529,7 @@ $messages['eu'] = array(
  * @author Mjbmr
  */
 $messages['fa'] = array(
+	'onlinestatus-desc' => 'افزودن یک اولویت برای نشان دادن اینکه اگر کاربر در حال حاضر در ویکی،حاضر است یا نه',
 	'onlinestatus-js-anon' => 'خطا: شما برای استفاده از این ویژگی باید وارد شوید',
 	'onlinestatus-js-changed' => 'وضعیت شما به "$1" تغییر کرده‌است',
 	'onlinestatus-js-error' => 'تغییر وضعیت غیرممکن است، ارزش "$1" نامعتبر است',
