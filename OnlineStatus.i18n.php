@@ -526,6 +526,7 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Armin1392
+ * @author Ebraminio
  * @author Mjbmr
  */
 $messages['fa'] = array(
@@ -541,8 +542,8 @@ $messages['fa'] = array(
 	'onlinestatus-toggles-show' => 'نمایش وضعیت آنلاین در صفحهٔ کاربر',
 	'onlinestatus-toggle-offline' => 'برون‌خط',
 	'onlinestatus-toggle-online' => 'برخط',
-	'onlinestatus-pref-onlineonlogin' => 'تغییر دادن وضعیت من به آنلاین هنگام ورود به سیستم',
-	'onlinestatus-pref-offlineonlogout' => 'تغییر دادن وضعیت من به آفلاین هنگام خروج از سیستم',
+	'onlinestatus-pref-onlineonlogin' => 'تغییر دادن وضعیت من به برخط هنگام ورود',
+	'onlinestatus-pref-offlineonlogout' => 'تغییر دادن وضعیت من به برون‌خط هنگام خروج',
 );
 
 /** Finnish (suomi)
