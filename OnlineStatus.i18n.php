@@ -75,7 +75,8 @@ See also:
 Also used as <code>$1</code> in {{msg-mw|Onlinestatus-js-changed}}.
 
 See also:
-* {{msg-mw|Onlinestatus-toggle-offline}}',
+* {{msg-mw|Onlinestatus-toggle-offline}}
+{{Identical|Online}}',
 	'onlinestatus-pref-onlineonlogin' => 'Used as checkbox label in [[Special:Preferences]].
 
 See also:
