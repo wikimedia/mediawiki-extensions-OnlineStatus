@@ -18,7 +18,7 @@ $wgExtensionCredits['other'][] = array(
 	'name'           => 'OnlineStatus',
 	'author'         => 'Alexandre Emsenhuber',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:OnlineStatus',
-	'version'        => '2012-05-25',
+	'version'        => '2014-04-01',
 	'descriptionmsg' => 'onlinestatus-desc',
 );
 
@@ -43,6 +43,7 @@ $dir = dirname( __FILE__ ) . '/';
 $wgAutoloadClasses['OnlineStatus'] = $dir . 'OnlineStatus.body.php';
 
 // Add messages files
+$wgMessagesDirs['OnlineStatus'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['OnlineStatus'] = $dir . 'OnlineStatus.i18n.php';
 $wgExtensionMessagesFiles['OnlineStatusMagic'] = $dir . 'OnlineStatus.i18n.magic.php';
 
