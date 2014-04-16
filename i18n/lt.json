@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Hugo.arg"
-        ]
-    },
-    "onlinestatus-toggles-desc": "Jūsų statusas:",
-    "onlinestatus-toggle-offline": "Neprisijungęs",
-    "onlinestatus-toggle-online": "Prisijungęs"
+	"@metadata": {
+		"authors": [
+			"Hugo.arg"
+		]
+	},
+	"onlinestatus-toggles-desc": "Jūsų statusas:",
+	"onlinestatus-toggle-offline": "Neprisijungęs",
+	"onlinestatus-toggle-online": "Prisijungęs"
 }
