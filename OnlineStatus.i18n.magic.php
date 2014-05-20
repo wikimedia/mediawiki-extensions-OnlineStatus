@@ -33,8 +33,8 @@ $magicWords['br'] = array(
 
 /** Chechen (нохчийн) */
 $magicWords['ce'] = array(
-	'onlinestatus_word' => array( 'МАШАНЧОХЬХЬАЛ', 'СТАТУСВСЕТИ' ),
-	'onlinestatus_word_raw' => array( 'МАШАНЧОХЬХЬАЛТlУЬН', 'СТАТУСВСЕТИСЫР' ),
+	'onlinestatus_word' => array( 'ЗӀЕЧОХЬСТАТУС', 'СТАТУСВСЕТИ' ),
+	'onlinestatus_word_raw' => array( 'ЗӀЕНЧОХЬХЬАЛТӀУЬН', 'СТАТУСВСЕТИСЫР' ),
 	'anyuseronlinestatus' => array( 0, 'мюлхдекъахохьалмашанчохь', 'любойучастникстатусвсети' ),
 );
 

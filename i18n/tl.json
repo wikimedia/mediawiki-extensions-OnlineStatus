@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"AnakngAraw"
+			"AnakngAraw",
+			"Jojit fb"
 		]
 	},
 	"onlinestatus-desc": "Magdagdag ng isang kagustuhan upang maipakita kung pangkasalukuyang nasa wiki ba o hindi ang tagagamit",
@@ -17,5 +18,5 @@
 	"onlinestatus-toggle-offline": "Hindi nakaugnay sa internet",
 	"onlinestatus-toggle-online": "Nakaugnay sa internet",
 	"onlinestatus-pref-onlineonlogin": "Palitan ang katayuan ko bilang nakakunekta sa internet kapag lumalagda",
-	"onlinestatus-pref-offlineonlogout": "Palitan ang katayuan ko bilang hindi nakakunekta sa internet kapag umaalis sa pagkakalagda"
+	"onlinestatus-pref-offlineonlogout": "Palitan ang katayuan ko bilang hindi nakakunekta sa internet kapag mag-logout"
 }
