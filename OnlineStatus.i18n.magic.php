@@ -154,3 +154,8 @@ $magicWords['zh-hans'] = array(
 	'onlinestatus_word_raw' => array( '纯在线状态' ),
 	'anyuseronlinestatus' => array( 0, '任何用户在线状态' ),
 );
+
+/** Traditional Chinese (中文（繁體）‎) */
+$magicWords['zh-hant'] = array(
+	'anyuseronlinestatus' => array( 0, '任何使用者線上狀態' ),
+);
