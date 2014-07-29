@@ -44,13 +44,13 @@ class OnlineStatus {
 		global $wgUser;
 
 		if ( $wgUser->isAnon() ) {
-			return wfMsgHtml( 'onlinestatus-js-anon' );
+			return wfMessage( 'onlinestatus-js-anon' )->escaped();
 		}
 
 		switch( $action ) {
 		case 'get':
 			$def = $wgUser->getOption( 'online' );
-			$msg = wfMsgForContentNoTrans( 'onlinestatus-levels' );
+			$msg = wfMessage( 'onlinestatus-levels' )->inContentLanguage()->plain();
 			$lines = explode( "\n", $msg );
 			$radios = array();
 
@@ -64,7 +64,7 @@ class OnlineStatus {
 				$lev = trim( $line, '* ' );
 				$radios[] = array(
 					$lev,
-					wfMsg( 'onlinestatus-toggle-' . $lev ),
+					wfMessage( 'onlinestatus-toggle-' . $lev )->text(),
 					$lev == $def
 				);
 			}
@@ -87,9 +87,12 @@ class OnlineStatus {
 
 				// For grep. Message keys used here:
 				// onlinestatus-toggle-offline, onlinestatus-toggle-online
-				return wfMsgHtml( 'onlinestatus-js-changed', wfMsgHtml( 'onlinestatus-toggle-' . $stat ) );
+				return wfMessage(
+					'onlinestatus-js-changed',
+					wfMessage( 'onlinestatus-toggle-' . $stat )->escaped()
+				)->text();
 			} else {
-				return wfMsgHtml( 'onlinestatus-js-error', $stat );
+				return wfMessage( 'onlinestatus-js-error', $stat )->escaped();
 			}
 		}
 	}
@@ -118,7 +121,7 @@ class OnlineStatus {
 		if ( empty( $raw ) ) {
 			// For grep. Message keys used here:
 			// onlinestatus-toggle-offline, onlinestatus-toggle-online
-			return wfMsgNoTrans( 'onlinestatus-toggle-' . $status[0] );
+			return wfMessage( 'onlinestatus-toggle-' . $status[0] )->plain();
 		} else {
 			return $status[0];
 		}
@@ -147,7 +150,7 @@ class OnlineStatus {
 
 			// For grep. Message keys used here:
 			// onlinestatus-toggle-offline, onlinestatus-toggle-online
-			$ret = wfMsgNoTrans( 'onlinestatus-toggle-' . $status[0] );
+			$ret = wfMessage( 'onlinestatus-toggle-' . $status[0] )->plain();
 			$varCache['onlinestatus'] = $ret;
 		} elseif ( $index == 'onlinestatus_word_raw' ) {
 			$status = self::GetUserStatus( $parser->getTitle() );
@@ -167,7 +170,7 @@ class OnlineStatus {
 	 * Hook for user preferences
 	 */
 	public static function GetPreferences( $user, &$preferences ) {
-		$msg = wfMsgForContentNoTrans( 'onlinestatus-levels' );
+		$msg = wfMessage( 'onlinestatus-levels' )->inContentLanguage()->plain();
 		$lines = explode( "\n", $msg );
 		$radios = array();
 
@@ -179,7 +182,7 @@ class OnlineStatus {
 			// For grep. Message keys used here:
 			// onlinestatus-toggle-offline, onlinestatus-toggle-online
 			$lev = trim( $line, '* ' );
-			$radios[wfMsg( 'onlinestatus-toggle-' . $lev )] = $lev;
+			$radios[wfMessage( 'onlinestatus-toggle-' . $lev )->text()] = $lev;
 		}
 
 		$preferences['onlineonlogin'] =
@@ -273,7 +276,12 @@ class OnlineStatus {
 
 		// For grep. Message keys used here:
 		// onlinestatus-subtitle-offline, onlinestatus-subtitle-online
-		$out->setSubtitle( wfMsgExt( 'onlinestatus-subtitle-' . $status[0], array( 'parse' ), $status[1] ) );
+		$out->setSubtitle(
+			wfMessage(
+				'onlinestatus-subtitle-' . $status[0],
+				$status[1]
+			)->parseAsBlock()
+		);
 
 		return true;
 	}
@@ -293,7 +301,7 @@ class OnlineStatus {
 		foreach ( $urls as $key => $val ) {
 			if ( $key == 'logout' ) {
 				$arr['status'] = array(
-					'text' => wfMsgHtml( 'onlinestatus-tab' ),
+					'text' => wfMessage( 'onlinestatus-tab' )->escaped(),
 					'href' => 'javascript:;',
 					'active' => false,
 				);
