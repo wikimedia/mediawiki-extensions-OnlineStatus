@@ -20,6 +20,7 @@ $wgExtensionCredits['other'][] = array(
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:OnlineStatus',
 	'version'        => '2014-04-01',
 	'descriptionmsg' => 'onlinestatus-desc',
+	'license-name'   => 'GPL-2.0+',
 );
 
 // Configuration
