@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Michaello"
+			"Michaello",
+			"Milicevic01"
 		]
 	},
 	"onlinestatus-desc": "Dodaje podešavanja da bi se pokazivalo da li je korisnik trentno prisutan na vikiju ili ne.",
-	"onlinestatus-js-anon": "Greška: morate biti ulogovani da biste koristili ovu pogodnost.",
+	"onlinestatus-js-anon": "Greška: morate biti prijavljeni da bi ste koristili ovu mogućnost",
 	"onlinestatus-js-changed": "Vaš status je promenjen na \"$1\"",
 	"onlinestatus-js-error": "Nemoguće promeniti status, vrednost \"$1\" je neispravna",
 	"onlinestatus-subtitle-offline": "Ovaj korisnik je trenutno odsutan",
