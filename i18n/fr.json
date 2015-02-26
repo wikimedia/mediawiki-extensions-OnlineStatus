@@ -3,7 +3,8 @@
 		"authors": [
 			"Crochet.david",
 			"IAlex",
-			"Zetud"
+			"Zetud",
+			"Hercule"
 		]
 	},
 	"onlinestatus-desc": "Ajoute une préférence pour montrer si l’utilisateur est présent ou non",
@@ -14,7 +15,7 @@
 	"onlinestatus-subtitle-online": "Cet utilisateur est actuellement en ligne",
 	"onlinestatus-tab": "Statut",
 	"onlinestatus-toggles-desc": "Votre statut&nbsp;:",
-	"onlinestatus-toggles-explain": "Ceci permet aux autres utilisateurs de savoir si vous êtes actuellement présent{{GENDER:||e|(e)}} en regardant votre page utilisateur.",
+	"onlinestatus-toggles-explain": "Ceci permet aux autres utilisateurs de savoir si vous êtes actuellement connecté{{GENDER:||e}}et voyez votre page utilisateur.",
 	"onlinestatus-toggles-show": "Montrer mon statut sur ma page utilisateur",
 	"onlinestatus-toggle-offline": "Absent",
 	"onlinestatus-toggle-online": "Présent",
