@@ -10,7 +10,7 @@
 			"Umherirrender"
 		]
 	},
-	"onlinestatus-desc": "{{desc|name=Online Status|url=http://www.mediawiki.org/wiki/Extension:OnlineStatus}}",
+	"onlinestatus-desc": "{{desc|name=Online Status|url=https://www.mediawiki.org/wiki/Extension:OnlineStatus}}",
 	"onlinestatus-js-anon": "Used as error message for Ajax requests.",
 	"onlinestatus-js-changed": "Parameters:\n* $1 - any one of the following messages:\n** {{msg-mw|onlinestatus-toggle-offline}}\n** {{msg-mw|onlinestatus-toggle-online}}\nSee also:\n* {{msg-mw|onlinestatus-js-error}}",
 	"onlinestatus-js-error": "Parameters:\n* $1 - invalid status. Valid statuses are {{msg-mw|Onlinestatus-toggle-offline}} and {{msg-mw|Onlinestatus-toggle-online}}.\n\nSee also:\n* {{msg-mw|Onlinestatus-js-changed}}",
