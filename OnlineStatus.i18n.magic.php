@@ -19,7 +19,7 @@ $magicWords['ar'] = array(
 	'anyuseronlinestatus' => array( 0, 'حالة_الاتصال_لأي_مستخدم' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $magicWords['arz'] = array(
 	'onlinestatus_word' => array( 'حالة_الاتصال' ),
 	'onlinestatus_word_raw' => array( 'حالة_الاتصال_الخام' ),
