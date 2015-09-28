@@ -70,7 +70,9 @@ $wgHooks['PersonalUrls'][] = 'OnlineStatus::PersonalUrls';
 $wgAjaxExportList[] = 'OnlineStatus::Ajax';
 
 $wgResourceModules['ext.onlineStatus'] = array(
-	'scripts' => 'extensions/OnlineStatus/OnlineStatus.js',
-	'styles' => 'extensions/OnlineStatus/OnlineStatus.css',
+	'scripts' => 'OnlineStatus.js',
+	'styles' => 'OnlineStatus.css',
 	'dependencies' => 'mediawiki.legacy.wikibits',
+	'localBasePath' => __DIR__,
+	'remoteExtPath' => 'OnlineStatus',
 );
