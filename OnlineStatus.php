@@ -45,7 +45,6 @@ $wgAutoloadClasses['OnlineStatus'] = $dir . 'OnlineStatus.body.php';
 
 // Add messages files
 $wgMessagesDirs['OnlineStatus'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['OnlineStatus'] = $dir . 'OnlineStatus.i18n.php';
 $wgExtensionMessagesFiles['OnlineStatusMagic'] = $dir . 'OnlineStatus.i18n.magic.php';
 
 // Hooks for the Parser
