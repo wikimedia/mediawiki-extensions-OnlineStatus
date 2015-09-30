@@ -47,7 +47,7 @@ class OnlineStatus {
 			return wfMessage( 'onlinestatus-js-anon' )->escaped();
 		}
 
-		switch( $action ) {
+		switch ( $action ) {
 		case 'get':
 			$def = $wgUser->getOption( 'online' );
 			$msg = wfMessage( 'onlinestatus-levels' )->inContentLanguage()->plain();

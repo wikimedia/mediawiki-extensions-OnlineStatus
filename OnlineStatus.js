@@ -36,6 +36,7 @@ function ShowOnlineToggle(){
 			if( x.status == 200 ){
 				var resp = x.responseText;
 				// A bit unsafe, but...
+				/*jshint -W061 */
 				var json = eval( resp );
 				for( i = 0; i < json.length; i++ ){
 					var status = json[i];
@@ -60,6 +61,7 @@ function ShowOnlineToggle(){
 		document.body.appendChild( div );
 		OnlineStatusCreated = true;
 	} else {
+		/*jshint -W004 */
 		var div = document.getElementById( 'online-status-js' );
 		div.parentNode.removeChild( div );
 		OnlineStatusCreated = false;
