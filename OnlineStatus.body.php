@@ -103,8 +103,9 @@ class OnlineStatus {
 	static function ParserFirstCallInit( $parser ) {
 		global $wgAllowAnyUserOnlineStatusFunction;
 
-		if ( $wgAllowAnyUserOnlineStatusFunction )
+		if ( $wgAllowAnyUserOnlineStatusFunction ) {
 			$parser->setFunctionHook( 'anyuseronlinestatus', array( __CLASS__, 'ParserHookCallback' ) );
+		}
 		return true;
 	}
 
@@ -293,8 +294,9 @@ class OnlineStatus {
 		global $wgUser, $wgUseAjax;
 
 		# Require ajax
-		if ( !$wgUser->isLoggedIn() || !$wgUseAjax || $title->isSpecial( 'Preferences' ) )
+		if ( !$wgUser->isLoggedIn() || !$wgUseAjax || $title->isSpecial( 'Preferences' ) ) {
 			return true;
+		}
 
 		$arr = array();
 

@@ -38,7 +38,7 @@ $wgDefaultUserOptions['showonline'] = 0;
 $wgDefaultUserOptions['onlineonlogin'] = 1;
 $wgDefaultUserOptions['offlineonlogout'] = 1;
 
-$dir = dirname( __FILE__ ) . '/';
+$dir = __DIR__ . '/';
 
 // Classes
 $wgAutoloadClasses['OnlineStatus'] = $dir . 'OnlineStatus.body.php';
