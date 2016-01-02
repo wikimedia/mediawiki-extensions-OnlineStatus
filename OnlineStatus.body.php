@@ -73,7 +73,7 @@ class OnlineStatus {
 		case 'set':
 			if ( $stat ) {
 				$dbw = wfGetDB( DB_MASTER );
-				$dbw->begin();
+				$dbw->begin( __METHOD__ );
 				$actual = $wgUser->getOption( 'online' );
 				$wgUser->setOption( 'online', $stat );
 
@@ -83,7 +83,7 @@ class OnlineStatus {
 				}
 				$wgUser->saveSettings();
 				$wgUser->invalidateCache();
-				$dbw->commit();
+				$dbw->commit( __METHOD__ );
 
 				// For grep. Message keys used here:
 				// onlinestatus-toggle-offline, onlinestatus-toggle-online
