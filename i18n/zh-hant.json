@@ -5,11 +5,12 @@
 			"Liangent",
 			"Mark85296341",
 			"Wrightbus",
-			"LNDDYL"
+			"LNDDYL",
+			"飞舞回堂前"
 		]
 	},
 	"onlinestatus-desc": "添加一個選項以顯示用戶目前是否在線",
-	"onlinestatus-js-anon": "錯誤：您必需登入才可使用此功能",
+	"onlinestatus-js-anon": "錯誤：您必須登入才可使用此功能",
 	"onlinestatus-js-changed": "您的狀態已變更為 \"$1\"",
 	"onlinestatus-js-error": "無法更改狀態，數值「$1」無效",
 	"onlinestatus-subtitle-offline": "這位使用者現正離線",
