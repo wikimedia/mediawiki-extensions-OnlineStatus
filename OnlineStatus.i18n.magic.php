@@ -3,161 +3,161 @@
  * Internationalization file for magic words.
  */
 
-$magicWords = array();
+$magicWords = [];
 
 /** English (English) */
-$magicWords['en'] = array(
-	'onlinestatus_word' => array( '1', 'ONLINESTATUS' ),
-	'onlinestatus_word_raw' => array( '1', 'RAWONLINESTATUS' ),
-	'anyuseronlinestatus' => array( 0, 'anyuseronlinestatus' ),
-);
+$magicWords['en'] = [
+	'onlinestatus_word' => [ '1', 'ONLINESTATUS' ],
+	'onlinestatus_word_raw' => [ '1', 'RAWONLINESTATUS' ],
+	'anyuseronlinestatus' => [ 0, 'anyuseronlinestatus' ],
+];
 
 /** Arabic (العربية) */
-$magicWords['ar'] = array(
-	'onlinestatus_word' => array( 'حالة_الاتصال' ),
-	'onlinestatus_word_raw' => array( 'حالة_الاتصال_الخام' ),
-	'anyuseronlinestatus' => array( 0, 'حالة_الاتصال_لأي_مستخدم' ),
-);
+$magicWords['ar'] = [
+	'onlinestatus_word' => [ 'حالة_الاتصال' ],
+	'onlinestatus_word_raw' => [ 'حالة_الاتصال_الخام' ],
+	'anyuseronlinestatus' => [ 0, 'حالة_الاتصال_لأي_مستخدم' ],
+];
 
 /** Egyptian Arabic (مصرى) */
-$magicWords['arz'] = array(
-	'onlinestatus_word' => array( 'حالة_الاتصال' ),
-	'onlinestatus_word_raw' => array( 'حالة_الاتصال_الخام' ),
-	'anyuseronlinestatus' => array( 0, 'حالة_الاتصال_لأى_مستخدم', 'حالة_الاتصال_لأي_مستخدم' ),
-);
+$magicWords['arz'] = [
+	'onlinestatus_word' => [ 'حالة_الاتصال' ],
+	'onlinestatus_word_raw' => [ 'حالة_الاتصال_الخام' ],
+	'anyuseronlinestatus' => [ 0, 'حالة_الاتصال_لأى_مستخدم', 'حالة_الاتصال_لأي_مستخدم' ],
+];
 
 /** Breton (brezhoneg) */
-$magicWords['br'] = array(
-	'onlinestatus_word' => array( 'STATUDENLINENN' ),
-);
+$magicWords['br'] = [
+	'onlinestatus_word' => [ 'STATUDENLINENN' ],
+];
 
 /** Chechen (нохчийн) */
-$magicWords['ce'] = array(
-	'onlinestatus_word' => array( 'ЗӀЕЧОХЬСТАТУС', 'СТАТУСВСЕТИ' ),
-	'onlinestatus_word_raw' => array( 'ЗӀЕНЧОХЬХЬАЛТӀУЬН', 'СТАТУСВСЕТИСЫР' ),
-	'anyuseronlinestatus' => array( 0, 'мюлхдекъахохьалмашанчохь', 'любойучастникстатусвсети' ),
-);
+$magicWords['ce'] = [
+	'onlinestatus_word' => [ 'ЗӀЕЧОХЬСТАТУС', 'СТАТУСВСЕТИ' ],
+	'onlinestatus_word_raw' => [ 'ЗӀЕНЧОХЬХЬАЛТӀУЬН', 'СТАТУСВСЕТИСЫР' ],
+	'anyuseronlinestatus' => [ 0, 'мюлхдекъахохьалмашанчохь', 'любойучастникстатусвсети' ],
+];
 
 /** German (Deutsch) */
-$magicWords['de'] = array(
-	'onlinestatus_word_raw' => array( 'ROHONLINESTATUS' ),
-	'anyuseronlinestatus' => array( 0, 'onlinestatus_eines_benutzers' ),
-);
+$magicWords['de'] = [
+	'onlinestatus_word_raw' => [ 'ROHONLINESTATUS' ],
+	'anyuseronlinestatus' => [ 0, 'onlinestatus_eines_benutzers' ],
+];
 
 /** Zazaki (Zazaki) */
-$magicWords['diq'] = array(
-	'onlinestatus_word' => array( 'ONLINEWEZİYET' ),
-	'onlinestatus_word_raw' => array( 'ONLINEWEZİYETNÉBİYO' ),
-	'anyuseronlinestatus' => array( 0, 'karberékonlineweziyetnébiyé' ),
-);
+$magicWords['diq'] = [
+	'onlinestatus_word' => [ 'ONLINEWEZİYET' ],
+	'onlinestatus_word_raw' => [ 'ONLINEWEZİYETNÉBİYO' ],
+	'anyuseronlinestatus' => [ 0, 'karberékonlineweziyetnébiyé' ],
+];
 
 /** French (français) */
-$magicWords['fr'] = array(
-	'onlinestatus_word' => array( 'ETATENLIGNE' ),
-	'onlinestatus_word_raw' => array( 'ETATENLIGNEB' ),
-	'anyuseronlinestatus' => array( 0, 'étatenligneutilisateur' ),
-);
+$magicWords['fr'] = [
+	'onlinestatus_word' => [ 'ETATENLIGNE' ],
+	'onlinestatus_word_raw' => [ 'ETATENLIGNEB' ],
+	'anyuseronlinestatus' => [ 0, 'étatenligneutilisateur' ],
+];
 
 /** Japanese (日本語) */
-$magicWords['ja'] = array(
-	'onlinestatus_word' => array( 'オンライン状況' ),
-	'onlinestatus_word_raw' => array( '生オンライン状況' ),
-	'anyuseronlinestatus' => array( 0, '匿名オンライン状況' ),
-);
+$magicWords['ja'] = [
+	'onlinestatus_word' => [ 'オンライン状況' ],
+	'onlinestatus_word_raw' => [ '生オンライン状況' ],
+	'anyuseronlinestatus' => [ 0, '匿名オンライン状況' ],
+];
 
 /** Korean (한국어) */
-$magicWords['ko'] = array(
-	'onlinestatus_word' => array( '접속상태' ),
-	'onlinestatus_word_raw' => array( '원래접속상태' ),
-	'anyuseronlinestatus' => array( 0, '어떤사용자접속상태' ),
-);
+$magicWords['ko'] = [
+	'onlinestatus_word' => [ '접속상태' ],
+	'onlinestatus_word_raw' => [ '원래접속상태' ],
+	'anyuseronlinestatus' => [ 0, '어떤사용자접속상태' ],
+];
 
 /** Macedonian (македонски) */
-$magicWords['mk'] = array(
-	'onlinestatus_word' => array( 'ВКЛУЧЕНОСТ' ),
-	'onlinestatus_word_raw' => array( 'СИРОВАВКЛУЧЕНОСТ' ),
-	'anyuseronlinestatus' => array( 0, 'вклученостсекојкорисник' ),
-);
+$magicWords['mk'] = [
+	'onlinestatus_word' => [ 'ВКЛУЧЕНОСТ' ],
+	'onlinestatus_word_raw' => [ 'СИРОВАВКЛУЧЕНОСТ' ],
+	'anyuseronlinestatus' => [ 0, 'вклученостсекојкорисник' ],
+];
 
 /** Malayalam (മലയാളം) */
-$magicWords['ml'] = array(
-	'onlinestatus_word' => array( 'ഓൺലൈൻസ്ഥിതി' ),
-	'onlinestatus_word_raw' => array( 'ഓൺലൈൻസ്ഥിതി_അസംസ്കൃതം' ),
-	'anyuseronlinestatus' => array( 0, 'ഏതൊരുപയോക്താവിന്റേയുമോൺലൈൻസ്ഥിതി' ),
-);
+$magicWords['ml'] = [
+	'onlinestatus_word' => [ 'ഓൺലൈൻസ്ഥിതി' ],
+	'onlinestatus_word_raw' => [ 'ഓൺലൈൻസ്ഥിതി_അസംസ്കൃതം' ],
+	'anyuseronlinestatus' => [ 0, 'ഏതൊരുപയോക്താവിന്റേയുമോൺലൈൻസ്ഥിതി' ],
+];
 
 /** Marathi (मराठी) */
-$magicWords['mr'] = array(
-	'onlinestatus_word' => array( 'ऑनलाईनस्थिती' ),
-	'onlinestatus_word_raw' => array( 'कच्चीऑनलाईनस्थिती' ),
-	'anyuseronlinestatus' => array( 0, 'कोणीसदस्यऑनलाईनस्थिती' ),
-);
+$magicWords['mr'] = [
+	'onlinestatus_word' => [ 'ऑनलाईनस्थिती' ],
+	'onlinestatus_word_raw' => [ 'कच्चीऑनलाईनस्थिती' ],
+	'anyuseronlinestatus' => [ 0, 'कोणीसदस्यऑनलाईनस्थिती' ],
+];
 
 /** Low Saxon (Netherlands) (Nedersaksies) */
-$magicWords['nds-nl'] = array(
-	'onlinestatus_word' => array( 'ONLINESTAOTUS' ),
-	'onlinestatus_word_raw' => array( 'ROEWEONLINESTAOTUS' ),
-	'anyuseronlinestatus' => array( 0, 'allegebrukersonlinestaotus' ),
-);
+$magicWords['nds-nl'] = [
+	'onlinestatus_word' => [ 'ONLINESTAOTUS' ],
+	'onlinestatus_word_raw' => [ 'ROEWEONLINESTAOTUS' ],
+	'anyuseronlinestatus' => [ 0, 'allegebrukersonlinestaotus' ],
+];
 
 /** Dutch (Nederlands) */
-$magicWords['nl'] = array(
-	'onlinestatus_word_raw' => array( 'RUWEONLINESTATUS' ),
-	'anyuseronlinestatus' => array( 0, 'allegebruikersonlinestatus' ),
-);
+$magicWords['nl'] = [
+	'onlinestatus_word_raw' => [ 'RUWEONLINESTATUS' ],
+	'anyuseronlinestatus' => [ 0, 'allegebruikersonlinestatus' ],
+];
 
 /** Oriya (ଓଡ଼ିଆ) */
-$magicWords['or'] = array(
-	'onlinestatus_word' => array( 'ଅନଲାଇନଅବସ୍ଥା' ),
-);
+$magicWords['or'] = [
+	'onlinestatus_word' => [ 'ଅନଲାଇନଅବସ୍ଥା' ],
+];
 
 /** Polish (polski) */
-$magicWords['pl'] = array(
-	'onlinestatus_word' => array( 'STATUSONLINE' ),
-);
+$magicWords['pl'] = [
+	'onlinestatus_word' => [ 'STATUSONLINE' ],
+];
 
 /** Russian (русский) */
-$magicWords['ru'] = array(
-	'onlinestatus_word' => array( 'СТАТУСВСЕТИ', 'СТАТУС_В_СЕТИ' ),
-	'onlinestatus_word_raw' => array( 'СТАТУСВСЕТИСЫР', 'СТАТУС_В_СЕТИ_СЫР' ),
-	'anyuseronlinestatus' => array( 0, 'любойучастникстатусвсети', 'любой_участник_статус_в_сети' ),
-);
+$magicWords['ru'] = [
+	'onlinestatus_word' => [ 'СТАТУСВСЕТИ', 'СТАТУС_В_СЕТИ' ],
+	'onlinestatus_word_raw' => [ 'СТАТУСВСЕТИСЫР', 'СТАТУС_В_СЕТИ_СЫР' ],
+	'anyuseronlinestatus' => [ 0, 'любойучастникстатусвсети', 'любой_участник_статус_в_сети' ],
+];
 
 /** Serbian (Latin script) (srpski (latinica)‎) */
-$magicWords['sr-el'] = array(
-	'onlinestatus_word' => array( 'MREŽNO_STANJE' ),
-	'onlinestatus_word_raw' => array( 'ČISTO_MREŽNO_STANJE' ),
-	'anyuseronlinestatus' => array( 0, 'mrežno_stanje_svakog_korisnika' ),
-);
+$magicWords['sr-el'] = [
+	'onlinestatus_word' => [ 'MREŽNO_STANJE' ],
+	'onlinestatus_word_raw' => [ 'ČISTO_MREŽNO_STANJE' ],
+	'anyuseronlinestatus' => [ 0, 'mrežno_stanje_svakog_korisnika' ],
+];
 
 /** Swedish (svenska) */
-$magicWords['sv'] = array(
-	'onlinestatus_word_raw' => array( '1', 'RÅONLINESTATUS', 'RAWONLINESTATUS' ),
-);
+$magicWords['sv'] = [
+	'onlinestatus_word_raw' => [ '1', 'RÅONLINESTATUS', 'RAWONLINESTATUS' ],
+];
 
 /** Turkish (Türkçe) */
-$magicWords['tr'] = array(
-	'onlinestatus_word' => array( 'ÇEVRİMİÇİDURUMU' ),
-	'onlinestatus_word_raw' => array( 'HAMÇEVRİMİÇİDURUMU' ),
-	'anyuseronlinestatus' => array( 0, 'herhangibirkullanıcıçevrimiçidurumu' ),
-);
+$magicWords['tr'] = [
+	'onlinestatus_word' => [ 'ÇEVRİMİÇİDURUMU' ],
+	'onlinestatus_word_raw' => [ 'HAMÇEVRİMİÇİDURUMU' ],
+	'anyuseronlinestatus' => [ 0, 'herhangibirkullanıcıçevrimiçidurumu' ],
+];
 
 /** Ukrainian (українська) */
-$magicWords['uk'] = array(
-	'onlinestatus_word' => array( 'У_МЕРЕЖІ' ),
-	'anyuseronlinestatus' => array( 0, 'будь-хто' ),
-);
+$magicWords['uk'] = [
+	'onlinestatus_word' => [ 'У_МЕРЕЖІ' ],
+	'anyuseronlinestatus' => [ 0, 'будь-хто' ],
+];
 
 /** Simplified Chinese (中文（简体）‎) */
-$magicWords['zh-hans'] = array(
-	'onlinestatus_word' => array( '在线状态' ),
-	'onlinestatus_word_raw' => array( '原始在线状态' ),
-	'anyuseronlinestatus' => array( 0, '任何用户在线状态' ),
-);
+$magicWords['zh-hans'] = [
+	'onlinestatus_word' => [ '在线状态' ],
+	'onlinestatus_word_raw' => [ '原始在线状态' ],
+	'anyuseronlinestatus' => [ 0, '任何用户在线状态' ],
+];
 
 /** Traditional Chinese (中文（繁體）‎) */
-$magicWords['zh-hant'] = array(
-	'onlinestatus_word' => array( '線上狀態' ),
-	'onlinestatus_word_raw' => array( '原先線上狀態' ),
-	'anyuseronlinestatus' => array( 0, '任何使用者線上狀態' ),
-);
+$magicWords['zh-hant'] = [
+	'onlinestatus_word' => [ '線上狀態' ],
+	'onlinestatus_word_raw' => [ '原先線上狀態' ],
+	'anyuseronlinestatus' => [ 0, '任何使用者線上狀態' ],
+];

@@ -13,7 +13,7 @@
  */
 
 // Add credit :)
-$wgExtensionCredits['other'][] = array(
+$wgExtensionCredits['other'][] = [
 	'path'           => __FILE__,
 	'name'           => 'OnlineStatus',
 	'author'         => 'Alexandre Emsenhuber',
@@ -21,7 +21,7 @@ $wgExtensionCredits['other'][] = array(
 	'version'        => '2014-04-01',
 	'descriptionmsg' => 'onlinestatus-desc',
 	'license-name'   => 'GPL-2.0+',
-);
+];
 
 // Configuration
 
@@ -68,10 +68,10 @@ $wgHooks['PersonalUrls'][] = 'OnlineStatus::PersonalUrls';
 // Ajax stuff
 $wgAjaxExportList[] = 'OnlineStatus::Ajax';
 
-$wgResourceModules['ext.onlineStatus'] = array(
+$wgResourceModules['ext.onlineStatus'] = [
 	'scripts' => 'OnlineStatus.js',
 	'styles' => 'OnlineStatus.css',
 	'dependencies' => 'mediawiki.legacy.wikibits',
 	'localBasePath' => __DIR__,
 	'remoteExtPath' => 'OnlineStatus',
-);
+];

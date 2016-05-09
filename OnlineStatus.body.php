@@ -14,7 +14,7 @@ class OnlineStatus {
 				return null;
 			}
 
-			if ( !in_array( $title->getNamespace(), array( NS_USER, NS_USER_TALK ) ) ) {
+			if ( !in_array( $title->getNamespace(), [ NS_USER, NS_USER_TALK ] ) ) {
 				return null;
 			}
 
@@ -34,7 +34,7 @@ class OnlineStatus {
 			return null;
 		}
 
-		return array( $user->getOption( 'online' ), $username );
+		return [ $user->getOption( 'online' ), $username ];
 	}
 
 	/**
@@ -52,7 +52,7 @@ class OnlineStatus {
 			$def = $wgUser->getOption( 'online' );
 			$msg = wfMessage( 'onlinestatus-levels' )->inContentLanguage()->plain();
 			$lines = explode( "\n", $msg );
-			$radios = array();
+			$radios = [];
 
 			foreach ( $lines as $line ) {
 				if ( substr( $line, 0, 1 ) != '*' ) {
@@ -62,11 +62,11 @@ class OnlineStatus {
 				// For grep. Message keys used here:
 				// onlinestatus-toggle-offline, onlinestatus-toggle-online
 				$lev = trim( $line, '* ' );
-				$radios[] = array(
+				$radios[] = [
 					$lev,
 					wfMessage( 'onlinestatus-toggle-' . $lev )->text(),
 					$lev == $def
-				);
+				];
 			}
 
 			return json_encode( $radios );
@@ -104,7 +104,7 @@ class OnlineStatus {
 		global $wgAllowAnyUserOnlineStatusFunction;
 
 		if ( $wgAllowAnyUserOnlineStatusFunction ) {
-			$parser->setFunctionHook( 'anyuseronlinestatus', array( __CLASS__, 'ParserHookCallback' ) );
+			$parser->setFunctionHook( 'anyuseronlinestatus', [ __CLASS__, 'ParserHookCallback' ] );
 		}
 		return true;
 	}
@@ -116,7 +116,7 @@ class OnlineStatus {
 		$status = self::GetUserStatus( $user );
 
 		if ( $status === null ) {
-			return array( 'found' => false );
+			return [ 'found' => false ];
 		}
 
 		if ( empty( $raw ) ) {
@@ -173,7 +173,7 @@ class OnlineStatus {
 	public static function GetPreferences( $user, &$preferences ) {
 		$msg = wfMessage( 'onlinestatus-levels' )->inContentLanguage()->plain();
 		$lines = explode( "\n", $msg );
-		$radios = array();
+		$radios = [];
 
 		foreach ( $lines as $line ) {
 			if ( substr( $line, 0, 1 ) != '*' ) {
@@ -187,33 +187,33 @@ class OnlineStatus {
 		}
 
 		$preferences['onlineonlogin'] =
-			array(
+			[
 				'type' => 'toggle',
 				'section' => 'misc',
 				'label-message' => 'onlinestatus-pref-onlineonlogin',
-			);
+			];
 
 		$preferences['offlineonlogout'] =
-			array(
+			[
 				'type' => 'toggle',
 				'section' => 'misc',
 				'label-message' => 'onlinestatus-pref-offlineonlogout',
-			);
+			];
 
-		$prefs = array(
-			'online' => array(
+		$prefs = [
+			'online' => [
 				'type' => 'radio',
 				'section' => 'personal/info',
 				'options' => $radios,
 				'label-message' => 'onlinestatus-toggles-desc',
-			),
-			'showonline' => array(
+			],
+			'showonline' => [
 				'type' => 'check',
 				'section' => 'personal/info',
 				'label-message' => 'onlinestatus-toggles-show',
 				'help-message' => 'onlinestatus-toggles-explain',
-			)
-		);
+			]
+		];
 
 		$after = array_key_exists( 'registrationdate', $preferences ) ? 'registrationdate' : 'editcount';
 		$preferences = wfArrayInsertAfter( $preferences, $prefs, $after );
@@ -265,7 +265,7 @@ class OnlineStatus {
 			$out->addModules( 'ext.onlineStatus' );
 		}
 
-		if ( !in_array( $wgRequest->getVal( 'action', 'view' ), array( 'view', 'purge' ) ) ) {
+		if ( !in_array( $wgRequest->getVal( 'action', 'view' ), [ 'view', 'purge' ] ) ) {
 			return true;
 		}
 
@@ -298,15 +298,15 @@ class OnlineStatus {
 			return true;
 		}
 
-		$arr = array();
+		$arr = [];
 
 		foreach ( $urls as $key => $val ) {
 			if ( $key == 'logout' ) {
-				$arr['status'] = array(
+				$arr['status'] = [
 					'text' => wfMessage( 'onlinestatus-tab' )->escaped(),
 					'href' => 'javascript:;',
 					'active' => false,
-				);
+				];
 			}
 
 			$arr[$key] = $val;
