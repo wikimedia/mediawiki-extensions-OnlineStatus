@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nghtwlkr"
+			"Nghtwlkr",
+			"Jon Harald Søby"
 		]
 	},
 	"onlinestatus-desc": "Legger til en innstilling for å vise om brukeren er logget på wikien eller ikke",
