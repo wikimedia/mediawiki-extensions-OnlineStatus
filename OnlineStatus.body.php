@@ -6,6 +6,7 @@ class OnlineStatus {
 	 *
 	 * @param mixed $title string of Title object, if it's a title, if has to be in
 	 *                     User: of User_talk: namespace.
+	 * @param bool $checkShowPref
 	 * @return array ( string status, string username 	) or null
 	 */
 	static function GetUserStatus( $title, $checkShowPref = false ) {
@@ -39,6 +40,9 @@ class OnlineStatus {
 
 	/**
 	 * Used for AJAX requests
+	 * @param string $action
+	 * @param bool $stat
+	 * @return string
 	 */
 	static function Ajax( $action, $stat = false ) {
 		global $wgUser;
@@ -99,6 +103,8 @@ class OnlineStatus {
 
 	/**
 	 * Hook for ParserFirstCallInit
+	 * @param Parser $parser
+	 * @return true
 	 */
 	static function ParserFirstCallInit( $parser ) {
 		global $wgAllowAnyUserOnlineStatusFunction;
@@ -111,6 +117,10 @@ class OnlineStatus {
 
 	/**
 	 * Callback for {{#anyuserstatus:}}
+	 * @param Parser &$parser
+	 * @param User $user
+	 * @param bool $raw
+	 * @return array|string
 	 */
 	static function ParserHookCallback( &$parser, $user, $raw = false ) {
 		$status = self::GetUserStatus( $user );
@@ -130,6 +140,8 @@ class OnlineStatus {
 
 	/**
 	 * Hook function for MagicWordwgVariableIDs
+	 * @param array &$magicWords
+	 * @return true
 	 */
 	static function MagicWordVariable( &$magicWords ) {
 		$magicWords[] = 'onlinestatus_word';
@@ -140,6 +152,11 @@ class OnlineStatus {
 
 	/**
 	 * Hook function for ParserGetVariableValueSwitch
+	 * @param Parser &$parser
+	 * @param array &$varCache
+	 * @param string &$index
+	 * @param array &$ret
+	 * @return true
 	 */
 	static function ParserGetVariable( &$parser, &$varCache, &$index, &$ret ) {
 		if ( $index == 'onlinestatus_word' ) {
@@ -169,6 +186,9 @@ class OnlineStatus {
 
 	/**
 	 * Hook for user preferences
+	 * @param User $user
+	 * @param array &$preferences
+	 * @return true
 	 */
 	public static function GetPreferences( $user, &$preferences ) {
 		$msg = wfMessage( 'onlinestatus-levels' )->inContentLanguage()->plain();
@@ -223,6 +243,8 @@ class OnlineStatus {
 
 	/**
 	 * Hook for UserLoginComplete
+	 * @param User $user
+	 * @return true
 	 */
 	static function UserLoginComplete( $user ) {
 		if ( $user->getOption( 'onlineonlogin' ) ) {
@@ -235,6 +257,10 @@ class OnlineStatus {
 
 	/**
 	 * Hook for UserLoginComplete
+	 * @param User &$newUser
+	 * @param string &$injected_html
+	 * @param string|null $oldName
+	 * @return true
 	 */
 	static function UserLogoutComplete( &$newUser, &$injected_html, $oldName = null ) {
 		if ( $oldName === null ) {
@@ -257,6 +283,8 @@ class OnlineStatus {
 
 	/**
 	 * Hook function for BeforePageDisplay
+	 * @param OutputPage &$out
+	 * @return true
 	 */
 	static function BeforePageDisplay( &$out ) {
 		global $wgRequest, $wgUser, $wgUseAjax;
@@ -289,6 +317,9 @@ class OnlineStatus {
 
 	/**
 	 * Hook for PersonalUrls
+	 * @param array &$urls
+	 * @param Title &$title
+	 * @return true
 	 */
 	static function PersonalUrls( &$urls, &$title ) {
 		global $wgUser, $wgUseAjax;
