@@ -9,7 +9,7 @@
  * @file
  * @ingroup Extensions
  * @author Alexandre Emsenhuber
- * @license GPLv2 of greater
+ * @license GPL-2.0-or-later
  */
 
 // Add credit :)
