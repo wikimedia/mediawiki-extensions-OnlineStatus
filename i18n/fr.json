@@ -6,7 +6,8 @@
 			"Zetud",
 			"Hercule",
 			"Gomoko",
-			"Urhixidur"
+			"Urhixidur",
+			"Matěj Suchánek"
 		]
 	},
 	"onlinestatus-desc": "Ajoute une préférence pour montrer si l’utilisateur est présent ou non",
@@ -18,7 +19,7 @@
 	"onlinestatus-tab": "Statut",
 	"onlinestatus-toggles-desc": "Votre statut&nbsp;:",
 	"onlinestatus-toggles-explain": "Cela vous permet de montrer aux autres utilisateurs si vous êtes actuellement connecté ou non, en regardant votre page utilisateur.",
-	"onlinestatus-toggles-show": "Montrer mon statut sur ma page d’{{GENDER|utilisateur|utilisatrice}}",
+	"onlinestatus-toggles-show": "Montrer mon statut sur ma page d’{{GENDER:|utilisateur|utilisatrice}}",
 	"onlinestatus-toggle-offline": "Absent",
 	"onlinestatus-toggle-online": "Présent",
 	"onlinestatus-pref-onlineonlogin": "Changer mon statut à en ligne quand je me connecte",
