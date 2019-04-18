@@ -2,7 +2,7 @@
 
 /**
  * Extension that adds a new toggle in user preferences to show if the user is
- * aviabled or not. See http://mediawiki.org/wiki/Extension:OnlineStatus for
+ * aviabled or not. See https://mediawiki.org/wiki/Extension:OnlineStatus for
  * more informations.
  * Require MediaWiki 1.17 r77011 or higher to work.
  *
