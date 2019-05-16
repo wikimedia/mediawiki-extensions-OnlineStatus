@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Michawiki",
-			"Yekrats"
+			"Yekrats",
+			"Mirin"
 		]
 	},
 	"onlinestatus-desc": "Aldonas preferon por montri se la uzanto estas nune ensalutita aŭ ne en la vikio",
@@ -16,5 +17,7 @@
 	"onlinestatus-toggles-explain": "Ĉi tiu permesas al vi montri al aliaj uzantoj se vi estas aktuale retkonektita per vizitante vian uzanto-paĝon.",
 	"onlinestatus-toggles-show": "Montru retkonektan statuson en mia uzanto-paĝo",
 	"onlinestatus-toggle-offline": "Nekonektita",
-	"onlinestatus-toggle-online": "Konektita"
+	"onlinestatus-toggle-online": "Konektita",
+	"onlinestatus-pref-onlineonlogin": "Ŝanĝi mian staton surreta dum ensalutado",
+	"onlinestatus-pref-offlineonlogout": "Ŝanĝi mian staton senreta dum elsalutado"
 }
