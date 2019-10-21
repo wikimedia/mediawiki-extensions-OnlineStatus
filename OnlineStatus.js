@@ -82,4 +82,4 @@ function ChangeOnlineStatus(){
 	} );
 }
 
-hookEvent( 'load', OnlineStatus );
+window.addEventListener( 'load', OnlineStatus );
