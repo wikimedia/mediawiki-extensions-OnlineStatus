@@ -3,12 +3,12 @@
 		"authors": [
 			"Bennylin",
 			"EugeneZelenko",
+			"Liuxinyu970226",
 			"Purodha",
 			"Shirayuki",
 			"Siebrand",
 			"The Evil IP address",
-			"Umherirrender",
-			"Liuxinyu970226"
+			"Umherirrender"
 		]
 	},
 	"onlinestatus-desc": "{{desc|name=Online Status|url=https://www.mediawiki.org/wiki/Extension:OnlineStatus}}",

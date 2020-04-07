@@ -3,8 +3,8 @@
 		"authors": [
 			"Fryed-peach",
 			"Hosiryuhosi",
-			"Shirayuki",
-			"Rxy"
+			"Rxy",
+			"Shirayuki"
 		]
 	},
 	"onlinestatus-desc": "利用者が現在そのウィキ上にいるかどうかを表示できるように、{{int:preferences}}に設定項目を追加する",

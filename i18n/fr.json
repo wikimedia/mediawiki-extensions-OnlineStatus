@@ -2,12 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Crochet.david",
-			"IAlex",
-			"Zetud",
-			"Hercule",
 			"Gomoko",
+			"Hercule",
+			"IAlex",
+			"Matěj Suchánek",
 			"Urhixidur",
-			"Matěj Suchánek"
+			"Zetud"
 		]
 	},
 	"onlinestatus-desc": "Ajoute une préférence pour montrer si l’utilisateur est présent ou non",
