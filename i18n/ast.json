@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Fitoschido",
 			"Xuacu"
 		]
 	},
 	"onlinestatus-desc": "Amiesta una preferencia p'amosar si l'usuariu ta conectáu a la wiki o non",
 	"onlinestatus-js-anon": "Error: tienes d'aniciar sesión pa usar esta carauterística",
-	"onlinestatus-js-changed": "El to estáu camudó a \"$1\"",
+	"onlinestatus-js-changed": "El to estáu camudó a «$1»",
 	"onlinestatus-js-error": "Ye imposible cambiar l'estáu; el valor \"$1\" ye inválidu",
 	"onlinestatus-subtitle-offline": "Esti usuariu anguaño ta desconectáu",
 	"onlinestatus-subtitle-online": "Esti usuariu anguaño ta conectáu",
