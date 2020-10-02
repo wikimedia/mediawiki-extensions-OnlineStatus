@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"MuratTheTurkish",
 			"Vito Genovese"
 		]
 	},
@@ -13,7 +14,7 @@
 	"onlinestatus-tab": "Durum",
 	"onlinestatus-toggles-desc": "Durumunuz:",
 	"onlinestatus-toggles-explain": "Bu, diğer kullanıcıların kullanıcı sayfanızı görüntüleyerek çevrimiçi olup olmadığınızı görmesini sağlar",
-	"onlinestatus-toggles-show": "Çevrimiçi durumunu kullanıcı sayfamda görüntüle",
+	"onlinestatus-toggles-show": "Çevrimiçi durumunu kullanıcı sayfamda göster",
 	"onlinestatus-toggle-offline": "Çevrimdışı",
 	"onlinestatus-toggle-online": "Çevrimiçi",
 	"onlinestatus-pref-onlineonlogin": "Oturum açtığımda durumumu çevrimiçi olarak değiştir",
